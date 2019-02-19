@@ -1,6 +1,13 @@
-// font vt323 
+/* font vt323  */
 @import url('https://fonts.googleapis.com/css?family=VT323');
 
 .box1{
-
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-family: "vt323",monospace;
+    margin: 25px;
+    padding: 11px;
+    border-style: solid;
+    border-color: gold;
 }
