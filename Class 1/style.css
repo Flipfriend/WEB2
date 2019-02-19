@@ -11,4 +11,5 @@
     border-style: solid;
     border-color: gold;
     position: absolute;
+    float:left;
 }
