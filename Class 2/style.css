@@ -1,3 +1,8 @@
 .maincontain{
     background-color:salmon;
 }
+@media (min-width: 786px) {
+.maincontain {
+    background-color: dodgerblue;
+    }
+}
