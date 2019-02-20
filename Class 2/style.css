@@ -1,5 +1,10 @@
 .maincontain{
     background-color:salmon;
+    width:100%
+}
+
+body{
+    margin:0px;
 }
 @media (min-width: 786px) {
 .maincontain {
@@ -9,4 +14,9 @@
 .h1{
     font-family: 'Courier New', Courier, monospace;
     color:white;
+}
+@media (min-width: 992px) {
+    .maincontain{
+        background-color:plum;
+    }
 }
