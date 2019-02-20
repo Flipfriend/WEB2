@@ -13,6 +13,10 @@
     position: absolute;
     float:left;
 }
+body{
+    margin:0px;
+    background-color:white;
+}
 img{
     margin:auto;
     width:100%;
