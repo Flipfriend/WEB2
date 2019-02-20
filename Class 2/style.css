@@ -62,5 +62,13 @@ body{
     .maincontain{
         background-color:plum;
         width:960px;
+        }
+        nav.navbar li{
+            display:inline-block;
+            padding:20px;
+    
+        }
+        nav.navbar li:last-child{
+            border-bottom: 2px solid darkred;
     }
 }
