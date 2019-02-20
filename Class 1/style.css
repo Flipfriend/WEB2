@@ -1,6 +1,6 @@
 /* font vt323  */
 @import url('https://fonts.googleapis.com/css?family=VT323');
-
+@media (min 540px);
 .box1{
     text-align: center;
     background-color: blue;
