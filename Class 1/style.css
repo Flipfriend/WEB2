@@ -13,3 +13,7 @@
     position: absolute;
     float:left;
 }
+img{
+    margin:auto;
+    width:100%;
+}
