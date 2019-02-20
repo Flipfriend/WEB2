@@ -4,9 +4,30 @@
     min-height:300px;
 }
 
+nav.navbar{
+    background-color:darkseagreen;
+    width:100%;
+    padding:20px 0px;
+}
+
+nav.navbar a{
+    font-size:22px;
+    text-decoration: none;
+    color:darkred;
+    line-height: 36px;
+}
+
+nav.navbar ul{
+    list-style: none;
+    padding:0px;
+    margin:0px;
+    text-align: center;
+}
+
 body{
     margin:0px;
 }
+
 @media (min-width: 768px) {
 .maincontain {
     background-color: dodgerblue;
@@ -14,10 +35,12 @@ body{
     margin: 0px auto;
     }
 }
+
 .h1{
     font-family: 'Courier New', Courier, monospace;
     color:white;
 }
+
 @media (min-width: 992px) {
     .maincontain{
         background-color:plum;
