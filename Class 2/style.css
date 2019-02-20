@@ -7,14 +7,23 @@
 nav.navbar{
     background-color:darkseagreen;
     width:100%;
-    padding:20px 0px;
+    padding:10px 0px;
 }
 
 nav.navbar a{
     font-size:22px;
+    line-height: 36px;
     text-decoration: none;
     color:darkred;
-    line-height: 36px;
+    
+}
+
+nav.navbar li:last-child{
+    border-bottom:0px none; 
+}
+
+nav.navbar li{
+    border-bottom: 2px solid darkred;
 }
 
 nav.navbar ul{
