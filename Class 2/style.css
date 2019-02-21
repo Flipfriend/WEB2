@@ -73,12 +73,18 @@ h1{
     nav.navbar li:last-child{
         border-bottom: 2px solid rgb(232,136,115);
     }
+    /* imgs margin changes after breakpoint */
+    .img_skater{
+        margin:80px;
 }
 
 @media (min-width: 992px) {
     .maincontain{
         background-color:plum;
         width:960px;
-        
+    }
+    /* imgs margin changes after breakpoint */
+    .img_skater{
+        margin:138px;
     }
 }
