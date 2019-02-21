@@ -1,6 +1,7 @@
 /* font "Share Tech Mono" */
 @import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
-
+/* font for body copy "Crimson Text" */
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 .maincontain{
     background-color:salmon;
     width:100%;
@@ -39,6 +40,15 @@ nav.navbar ul{
 
 body{
     margin:0px;
+}
+
+.bodycopy{
+    font-family: "Crimson Text",'Times New Roman', Times, serif;
+    letter-spacing: 1.8;
+}
+.img_skater{
+    width:250px;
+    height:200px;
 }
 
 @media (min-width: 768px) {
