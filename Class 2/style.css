@@ -46,11 +46,12 @@ body{
     font-family: "Crimson Text",'Times New Roman', Times, serif;
     letter-spacing: 1.8;
     padding: 25px;
+    display:none;
 }
 .img_skater{
     width:250px;
     height:200px;
-    margin-left: 100px;
+    margin-left: 55px;
 }
 
 h1{
@@ -77,6 +78,12 @@ h1{
     #ekimg{
         margin-left:100px;
     }
+    .bodycopy{
+        font-family: "Crimson Text",'Times New Roman', Times, serif;
+        letter-spacing: 1.8;
+        padding: 25px;
+        
+    }
 }
 @media (min-width: 992px) {
     .maincontain{
@@ -85,6 +92,6 @@ h1{
     }
     /* imgs margin changes after breakpoint */
     #ekimg{
-        margin-left:35px;
+        margin-left:164px;
         }
 }
