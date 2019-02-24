@@ -84,7 +84,7 @@ h1{
         width:960px;
     }
     /* imgs margin changes after breakpoint */
-    .img_skater{
-        margin:138px;
+    #ekimg{
+        margin-left:35px;
     }
-}
+ }
