@@ -59,7 +59,11 @@ h1{
     font-size:33px;
     padding: 25px;
 }
-
+.mpara{
+    font-family: "Crimson Text",'Times New Roman', Times, serif;
+    letter-spacing: 1.8;
+    padding: 25px;
+}
 @media (min-width: 768px) {
 .maincontain {
     background-color: dodgerblue;
@@ -84,6 +88,12 @@ h1{
         padding: 25px;
         display:inherit;
     }
+    .mpara{
+        font-family: "Crimson Text",'Times New Roman', Times, serif;
+        letter-spacing: 1.8;
+        padding: 25px;
+        display:none;
+    }
 }
 @media (min-width: 992px) {
     .maincontain{
@@ -99,5 +109,11 @@ h1{
             letter-spacing: 1.8;
             padding: 25px;
             display:inherit;
+        }
+        .mpara{
+            font-family: "Crimson Text",'Times New Roman', Times, serif;
+            letter-spacing: 1.8;
+            padding: 25px;
+            display:none;
         }
 }
