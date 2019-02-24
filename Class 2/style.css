@@ -63,6 +63,7 @@ h1{
     font-family: "Crimson Text",'Times New Roman', Times, serif;
     line-height: 1.8;
     padding: 25px;
+    margin:34px;
 }
 @media (min-width: 768px) {
 .maincontain {
@@ -93,6 +94,7 @@ h1{
         line-height: 1.8;
         padding: 25px;
         display:none;
+        margin:34px;
     }
     h1{
         text-align: center;
