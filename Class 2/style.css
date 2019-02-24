@@ -82,7 +82,7 @@ h1{
         font-family: "Crimson Text",'Times New Roman', Times, serif;
         letter-spacing: 1.8;
         padding: 25px;
-        display:initial;
+        display:inherit;
     }
 }
 @media (min-width: 992px) {
@@ -98,6 +98,6 @@ h1{
             font-family: "Crimson Text",'Times New Roman', Times, serif;
             letter-spacing: 1.8;
             padding: 25px;
-            display:initial;
+            display:inherit;
         }
 }
