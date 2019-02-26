@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
 /* font for body copy "Crimson Text" */
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
-.maincontain{
+.maincontain {
     background-color:salmon;
     width:100%;
     min-height:300px;
@@ -15,7 +15,7 @@ nav.navbar{
     font-family: "Share Tech Mono",'Courier New', Courier, monospace;
 }
 
-nav.navbar a{
+nav.navbar a {
     font-size:22px;
     line-height: 36px;
     text-decoration: none;
@@ -27,28 +27,28 @@ nav.navbar li:last-child{
     border-bottom:0px none; 
 }
 
-nav.navbar li{
+nav.navbar li {
     border-bottom: 2px solid rgb(232,136,115);
 }
 
-nav.navbar ul{
+nav.navbar ul {
     list-style: none;
     padding:0px;
     margin:0px;
     text-align: center;
 }
 
-body{
+body {
     margin:0px;
 }
 
-.bodycopy{
+.bodycopy {
     font-family: "Crimson Text",'Times New Roman', Times, serif;
     line-height: 1.8;
     padding: 25px;
     display:none;
 }
-.img_skater{
+.img_skater { 
     width:250px;
     height:200px;
     margin-left: 55px;
@@ -59,12 +59,18 @@ h1{
     font-size:33px;
     padding: 25px;
 }
-.mpara{
+.mpara {
     font-family: "Crimson Text",'Times New Roman', Times, serif;
     line-height: 1.8;
     padding: 25px;
     margin:34px;
 }
+
+.imgbutton {
+    height:20px;
+    width:20px;
+}
+
 @media (min-width: 768px) {
 .maincontain {
     background-color: dodgerblue;
