@@ -74,9 +74,6 @@ h1{
 .button {
     height:200px;
     width:200px;
-    position:fixed;
-    float:right;
-    bottom:20px;
 }
 
 @media (min-width: 768px) {
