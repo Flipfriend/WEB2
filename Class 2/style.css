@@ -108,7 +108,7 @@ button {
     top:441px;
 }
 .heightdiv{
-    min-height:300px;
+    height:400px;
 }
 @media (min-width: 768px) {
 .maincontain {
