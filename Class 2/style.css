@@ -92,9 +92,19 @@ button {
 .deck{
     position: absolute;
     float:left;
-
+    height:200px;
+    width:150px;
+}
+#deck1{
+    top:20px;
+}
+#deck2{
+    top:230px
 }
 
+#deck3{
+    top:430px;
+}
 @media (min-width: 768px) {
 .maincontain {
     background-color: dodgerblue;
