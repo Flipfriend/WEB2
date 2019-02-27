@@ -20,6 +20,7 @@ nav.navbar a {
     line-height: 36px;
     text-decoration: none;
     color:rgb(232,136,115);
+    padding:10px;
     
 }
 
@@ -122,11 +123,11 @@ button {
     }
     nav.navbar li{
         display:inline-block;
-        padding:20px;
-
+        padding:20px;            
+        border-right: 2px solid rgb(232,136,115);
     }
     nav.navbar li:last-child{
-        border-bottom: 2px solid rgb(232,136,115);
+        border-right: 2px solid rgb(232,136,115);
     }
     /* imgs margin changes after breakpoint */
     #ekimg{
@@ -175,10 +176,16 @@ button {
         background-color:plum;
         width:960px;
     }
+    nav.navbar li{
+        display:inline-block;
+        padding:20px;            
+        border-right: 2px solid rgb(232,136,115);
+    }
     /* imgs margin changes after breakpoint */
     #ekimg{
         margin-left:164px;
         }
+        
         .bodycopy{
             font-family: "Crimson Text",'Times New Roman', Times, serif;
             line-height: 1.8;
