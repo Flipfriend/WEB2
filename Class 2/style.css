@@ -81,6 +81,7 @@ button {
     bottom:30px;
     right:30px;
     background-image:url(images/arrowup.png);
+    background-size: 30px,30px;
 
     
     
