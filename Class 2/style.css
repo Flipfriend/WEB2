@@ -156,7 +156,7 @@ button {
     }
     .imgwrapper{
         position: relative;
-        height:350px;
+        height:550px;
     }
 }
 
@@ -186,7 +186,7 @@ button {
         }
         .imgwrapper{
             position: relative;
-            height:350px;
+            height:550px;
         }
         #deck1{
             top:20px;
