@@ -158,6 +158,9 @@ button {
         position: relative;
         height:550px;
     }
+    .heightdiv{
+        height:500px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -200,5 +203,8 @@ button {
         #deck3{
             top:20px;
             left:568px
+        }
+        .heightdiv{
+            height:500px;
         }
 }
