@@ -82,9 +82,7 @@ button {
     right:30px;
     background-image:url(images/arrowup.png);
     background-size: 30px,30px;
-
-    
-    
+    border-radius: 22px;    
 }
 
 @media (min-width: 768px) {
