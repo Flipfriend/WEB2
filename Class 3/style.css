@@ -54,3 +54,11 @@ background-color:lightblue;
     }
 }
 
+@media (min-width:992px){
+    .floats{
+        width:25%;
+    }
+    .lg-width-50{
+    }
+}
+
