@@ -16,3 +16,6 @@ background-color:lightcoral;
 .blue{
 background-color:lightblue;
 }
+.clearfix{
+    clear:both;
+}
