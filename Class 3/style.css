@@ -23,9 +23,14 @@ background-color:lightblue;
 .clearfix{
     clear:both;
 }
-
+@media (min-width:450px){
+    .floats{
+        width:50%;
+    }
+}
 @media (min-width:768px){
     .floats{
         width:33.3333%;
     }
 }
+
