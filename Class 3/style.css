@@ -23,11 +23,16 @@ background-color:lightblue;
 .clearfix{
     clear:both;
 }
+/* small screen breakpoint */
 @media (min-width:450px){
     .floats{
         width:50%;
     }
+    .sm-width-100{
+        width:100%;
+    }
 }
+
 @media (min-width:768px){
     .floats{
         width:33.3333%;
