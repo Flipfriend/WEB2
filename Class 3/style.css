@@ -6,5 +6,13 @@
 .floats{
     float:left;
     width:33%;
-    
+}
+.red{
+background-color:lightcoral;
+}
+.green{
+    background-color:darkolivegreen;
+}
+.blue{
+background-color:lightblue;
 }
