@@ -87,19 +87,21 @@ button {
 }
 .imgwrapper{
     position: relative;
-    Background-color: rgb(226,136,97)
+    height:700px;
 }
 .deck{
     position: absolute;
     float:left;
     height:200px;
     width:150px;
+    left:100px;
 }
 #deck1{
     top:20px;
+    
 }
 #deck2{
-    top:230px
+    top:230px;
 }
 
 #deck3{
@@ -139,7 +141,21 @@ button {
     h1{
         text-align: center;
     }
+    #deck1{
+        top:20px;
+        left:80px;        
+    }
+    #deck2{
+        top:20px;
+        left:230px;
+    }
+    
+    #deck3{
+        top:20px;
+        left:330px
+    }
 }
+
 @media (min-width: 992px) {
     .maincontain{
         background-color:plum;
