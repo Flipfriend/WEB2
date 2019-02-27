@@ -23,6 +23,15 @@ background-color:lightblue;
 .clearfix{
     clear:both;
 }
+.yellow{
+    background-color:darkorange;
+}
+.cyan{
+    background-color: darkcyan;
+}
+.purple{
+    background-color:rebeccapurple;
+}
 /* small screen breakpoint */
 @media (min-width:450px){
     .floats{
@@ -36,6 +45,12 @@ background-color:lightblue;
 @media (min-width:768px){
     .floats{
         width:33.3333%;
+    }
+    .md-width-100{
+        width:100%;
+    }
+    .md-width-50{
+        width:50%;
     }
 }
 
