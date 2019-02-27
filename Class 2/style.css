@@ -154,6 +154,10 @@ button {
         top:20px;
         left:400px
     }
+    .imgwrapper{
+        position: relative;
+        height:350px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -179,5 +183,22 @@ button {
         }
         h1{
             text-align: center;
+        }
+        .imgwrapper{
+            position: relative;
+            height:350px;
+        }
+        #deck1{
+            top:20px;
+            left:100px;        
+        }
+        #deck2{
+            top:20px;
+            left:330px;
+        }
+        
+        #deck3{
+            top:20px;
+            left:500px
         }
 }
