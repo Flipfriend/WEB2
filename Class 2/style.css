@@ -111,7 +111,7 @@ button {
     height:400px;
 }
 .active{
-    background-color: rbga(232,136,115,.4)
+    background-color: rgba(232,136,115,.4);
     
 }
 @media (min-width: 768px) {
