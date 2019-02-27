@@ -2,10 +2,14 @@
 .maincontain{
     background-color:oldlace;
 }
-
+.body{
+    margin:0px;
+}
 .floats{
     float:left;
-    width:33%;
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 20px;
 }
 .red{
 background-color:lightcoral;
