@@ -1,7 +1,10 @@
 
-
+.maincontain{
+    background-color:oldlace;
+}
 
 .floats{
     float:left;
     width:33%;
+    
 }
