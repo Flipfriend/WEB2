@@ -85,6 +85,15 @@ button {
     background-size: 30px,30px;
     border-radius: 22px;    
 }
+.imgwrapper{
+    position: relative;
+    Background-color: rgb(226,136,97)
+}
+.deck{
+    position: absolute;
+    float:left;
+
+}
 
 @media (min-width: 768px) {
 .maincontain {
