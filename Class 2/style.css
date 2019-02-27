@@ -110,6 +110,10 @@ button {
 .heightdiv{
     height:400px;
 }
+.active{
+    background-color: rbga(232,136,115,.4)
+    
+}
 @media (min-width: 768px) {
 .maincontain {
     background-color: dodgerblue;
