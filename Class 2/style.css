@@ -107,6 +107,9 @@ button {
 #deck3{
     top:441px;
 }
+.heightdiv{
+    min-height:300px;
+}
 @media (min-width: 768px) {
 .maincontain {
     background-color: dodgerblue;
