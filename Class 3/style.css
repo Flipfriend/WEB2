@@ -42,7 +42,7 @@ background-color:lightblue;
     display:inline-block;
        
 }
-.navbar li:active{
+.navbar:active{
     border-bottom: 2px outset rgb(250,135,21);
     
     
