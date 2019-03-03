@@ -33,7 +33,7 @@ background-color:lightblue;
     min-height: 200px;
     margin-bottom: 20px;
 }
-.navbar ul li{
+.navbar ul+li{
     text-decoration: none;
     border-right: 2px outset rgb(250,135,21);
     font-family:"Arvo", 'Times New Roman', Times, serif;
