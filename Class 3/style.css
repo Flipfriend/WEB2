@@ -32,6 +32,16 @@ background-color:lightblue;
     min-height: 200px;
     margin-bottom: 20px;
 }
+.navbar ul li{
+    text-decoration: none;
+    border-right: 2px outset rgb(250,135,21)
+
+}
+.navbar ul li a{
+    border-bottom: 2px outset rgb(250,135,21);
+    
+    
+}
 /* *****************SMALL SCREENS**************/
 @media (min-width:450px){
     .floats{
