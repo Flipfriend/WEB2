@@ -38,6 +38,7 @@ background-color:lightblue;
     border-right: 2px outset rgb(250,135,21);
     font-family:"Arvo", 'Times New Roman', Times, serif;
     font-size: 32px;
+    font-weight: 700;
 
 }
 .navbar li:active{
