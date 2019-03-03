@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:700i');
 
 .maincontain{
     background-color:oldlace;
@@ -34,10 +35,12 @@ background-color:lightblue;
 }
 .navbar ul li{
     text-decoration: none;
-    border-right: 2px outset rgb(250,135,21)
+    border-right: 2px outset rgb(250,135,21);
+    font-family:"Arvo", 'Times New Roman', Times, serif;
+    font-size: 32px;
 
 }
-.navbar ul li a{
+.navbar li:active{
     border-bottom: 2px outset rgb(250,135,21);
     
     
