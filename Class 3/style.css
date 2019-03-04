@@ -58,7 +58,7 @@ nav.navbar ul {
 .navimg{
     display:none;
 }
-nav .navbar :last-child{
+nav li:last-child{
     border-bottom:none;
 }
 body{
@@ -115,6 +115,9 @@ body{
     .navimg{
         display:initial;
     }    
+    .navbar{
+        border-bottom:none;
+    }
 }
 /* *****************LARGE SCREENS**************/
 @media (min-width:992px){
