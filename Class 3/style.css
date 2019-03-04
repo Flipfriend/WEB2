@@ -35,11 +35,11 @@ background-color:lightblue;
 }
 .navbar ul li{
     text-decoration: none;
-    border-right: 2px outset rgb(250,135,21);
+    border-bottom: 2px outset rgb(250,135,21);
     font-family:"Arvo", 'Times New Roman', Times, serif;
     font-size: 32px;
     font-weight: 700;
-    display:inline-block;
+    display:inherit;
     padding:5px;
     color:rgb(174, 36, 36);
     list-style: none;
@@ -71,6 +71,7 @@ body{
     .sm-width-100{
         width:100%;
     }
+    
 }
 /* *****************MEDIUM SCREENS**************/
 @media (min-width:768px){
@@ -88,6 +89,17 @@ body{
     }
     .md-width-100{
         width:100%;
+    }
+    /* horizontal navbar for med. and large screens */
+    .navbar ul li{
+        border-right: 2px outset rgb(250,135,21);
+        font-family:"Arvo", 'Times New Roman', Times, serif;
+        font-size: 32px;
+        font-weight: 700;
+        display:inline-block;
+        padding:5px;
+        color:rgb(174, 36, 36);
+        background-color:rgba(13, 12, 44,.5);
     }
     
 }
