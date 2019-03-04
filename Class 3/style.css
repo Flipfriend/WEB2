@@ -54,12 +54,11 @@ nav.navbar ul {
 .navbar:active{
     border-bottom: 2px outset rgb(250,135,21);
     
-    
 }
 .navimg{
     display:none;
 }
-nav.navbar :last-child{
+nav .navbar :last-child{
     border-bottom:none;
 }
 body{
@@ -113,7 +112,9 @@ body{
         color:rgb(174, 36, 36);
         background-color:rgba(13, 12, 44,.5);
     }
-    
+    .navimg{
+        display:initial;
+    }    
 }
 /* *****************LARGE SCREENS**************/
 @media (min-width:992px){
