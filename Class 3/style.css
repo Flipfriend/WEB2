@@ -43,7 +43,7 @@ background-color:lightblue;
     padding:5px;
     color:rgb(250,135,21);
     list-style: none;
-    background-color:rgba(13, 12, 44,.5);
+    background-color:rgba(0, 0, 0,.0);
 }
 nav.navbar ul {
     list-style: none;
@@ -112,7 +112,7 @@ body{
         display:inline-block;
         padding:5px;
         color:rgb(174, 36, 36);
-        background-color:rgba(13, 12, 44,.5);
+        background-color:rgba(0, 0, 0,.0);
     }
     .navimg{
         display:initial;
