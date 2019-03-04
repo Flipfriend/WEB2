@@ -53,7 +53,7 @@ nav.navbar ul {
 }
 .navbar:active{
     border-bottom: 2px outset rgb(250,135,21);
-    
+    color:rgba(250,135,21,.3);
 }
 .navimg{
     display:none;
@@ -65,6 +65,7 @@ body{
     margin:0px;
     background-color:rgb(13, 12, 44);
 }
+
 /* *****************SMALL SCREENS**************/
 @media (min-width:450px){
     .floats{
