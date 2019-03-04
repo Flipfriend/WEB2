@@ -116,7 +116,7 @@ body{
     .navimg{
         display:initial;
     }    
-    .navbar{
+    .navbar ul li a{
         border-bottom:none;
     }
 }
