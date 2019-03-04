@@ -42,6 +42,8 @@ background-color:lightblue;
     display:inline-block;
     padding:5px;
     color:rgb(174, 36, 36);
+    list-style: none;
+    background-color:rgba(13, 12, 44,.5);
 }
 .navbar:active{
     border-bottom: 2px outset rgb(250,135,21);
