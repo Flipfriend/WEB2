@@ -43,13 +43,14 @@ background-color:lightblue;
     padding:5px;
     color:rgb(250,135,21);
     list-style: none;
-    background-color:rgb(0, 0, 0,);
+    background-color:rgba(13, 12, 44,.5);
 }
 nav.navbar ul {
     list-style: none;
     padding:0px;
     margin:0px;
     text-align: center;
+    background-color: black;
 }
 .navbar:active{
     border-bottom: 2px outset rgb(250,135,21);
@@ -111,7 +112,7 @@ body{
         display:inline-block;
         padding:5px;
         color:rgb(174, 36, 36);
-        background-color:rgb(0, 0, 0);
+        background-color:rgba(13, 12, 44,.5);
     }
     .navimg{
         display:initial;
