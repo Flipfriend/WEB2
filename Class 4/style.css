@@ -12,3 +12,6 @@
 .content .abs-pos{
     position: absolute;
 }
+#jkrOverlap{
+    top:30px;
+}
