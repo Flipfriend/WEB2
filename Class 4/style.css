@@ -1,5 +1,9 @@
 .content{
     padding:0px 10px;
+    min-height:520px;
+}
+.content .img_contain{
+    min-height:200px;
 }
 .content img{
     max-width:100%;
