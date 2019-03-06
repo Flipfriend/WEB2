@@ -10,6 +10,9 @@
 
 /* *****************SMALL SCREENS**************/
 @media (min-width:450px){
+    .maincontain{
+        width:440px;
+    }
     .floats{
         width:50%;
     }
@@ -29,6 +32,9 @@
 }
 /* *****************MEDIUM SCREENS**************/
 @media (min-width:768px){
+    .maincontain{
+        width:760px;
+    }
     .floats{
         width:33.3333%;
     }
@@ -47,6 +53,9 @@
 }
     /* *****************LARGE SCREENS**************/
 @media (min-width:992px){
+    .maincontain{
+        width:960px;
+    }
     .floats{
         width:25%;
     }
