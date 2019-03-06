@@ -7,6 +7,7 @@
     min-height: 200px;
     margin-bottom: 20px;
 }
+
 /* *****************SMALL SCREENS**************/
 @media (min-width:450px){
     .floats{
