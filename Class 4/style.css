@@ -13,7 +13,6 @@
     position: absolute;
 }
 .navbar ul li{
-    width:100%;
     list-style:none;
     text-align: center;
     background-color: rgb(35,57,91);
@@ -34,18 +33,12 @@
 }
 @media (min-width:450px){
     .navbar ul li{
-        width:100%;
-        list-style:none;
-        text-align: center;
         background-color: rgb(35,57,91);
         padding: 5px 10px;
     }
 }
 @media (min-width:768px){
     .navbar ul li{
-        width:100%;
-        list-style:none;
-        text-align: center;
         background-color: rgb(35,57,91);
         padding: 5px 10px;
         display: inline-block;
@@ -58,13 +51,14 @@
 }
 @media (min-width:992px){
     .navbar ul li{
-        width:100%;
-        list-style:none;
-        text-align: center;
         background-color: rgb(35,57,91);
         padding: 5px 10px;
+
         }
         .navbar ul:last-child{
             border-right:none;
+        }
+        .navbar{
+            display:inline-block;
         }
 }
