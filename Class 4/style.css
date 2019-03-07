@@ -12,3 +12,13 @@
 .content .abs-pos{
     position: absolute;
 }
+.navbar ul li{
+    width:100%;
+    list-style:none;
+    text-align: center;
+    background-color: rgba(35,57,91,0.8);
+    color: rgb(246,254,170);
+}
+.navbar ul{
+    text-decoration: none;
+}
