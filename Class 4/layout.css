@@ -30,7 +30,6 @@
     .sm-width-100{
         width:100%;
     }
-    
 }
 /* *****************MEDIUM SCREENS**************/
 @media (min-width:768px){
@@ -61,10 +60,9 @@
     .floats{
         width:25%;
     }
-    .lg-width-20{
+    .lg-width-25{
         width:25%;
     }
-
     .lg-width-33{
         width:33.3333%;
     }
