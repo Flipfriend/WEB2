@@ -43,20 +43,10 @@
 @media (min-width:768px){
     .navbar ul li{
         background-color: rgb(35,57,91);
-        padding: 5px 10px;
+        padding: 8px 10px;
         display: inline-block;
         border-right: 2px solid rgb(246,254,170);
-        }
-        .navbar ul:last-child{
-            border-right:none;
-        }
-
-}
-@media (min-width:992px){
-    .navbar ul li{
-        background-color: rgb(35,57,91);
-        padding: 5px 10px;
-
+        border-bottom: none;
         }
         .navbar ul:last-child{
             border-right:none;
@@ -64,4 +54,18 @@
         .navbar{
             display:inline-block;
         }
+}
+@media (min-width:992px){
+    .navbar ul li{
+        background-color: rgb(35,57,91);
+        padding: 8px 10px;
+        border-bottom: none;
+        }
+        .navbar ul:last-child{
+            border-right:none;
+        }
+        .navbar {
+            display:inline-block;
+        }
+
 }
