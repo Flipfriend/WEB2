@@ -51,7 +51,7 @@
         border-right: 2px solid rgb(246,254,170);
         border-bottom: none;
         }
-        .navbar ul:last-child{
+        .navbar li:last-child{
             border-right:none;
         }
         .navbar{
@@ -64,7 +64,7 @@
         padding: 8px 10px;
         border-bottom: none;
         }
-        .navbar ul:last-child{
+        .navbar li:last-child{
             border-right:none;
         }
         .navbar {
