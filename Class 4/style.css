@@ -28,6 +28,9 @@
     text-decoration:none;
     color:rgb(246,254,170);
 }
+.navbar a:active{
+    font-size:34px;
+}
 .navbar li:last-child{
     border-bottom:none;
 }
