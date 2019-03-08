@@ -1,0 +1,40 @@
+.navbar ul li{
+    list-style:none;
+    text-align: center;
+    padding: 5px 10px;
+}
+.navbar ul{
+    text-decoration: none;
+    margin:0px;
+    padding:0px;
+}
+.navbar a{
+    text-decoration:none;
+}
+.navbar{
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px;
+}
+@media (min-width:450px){
+    .navbar ul li{
+        padding: 5px 10px;
+    }
+}
+@media (min-width:768px){
+    .navbar ul li{
+        padding: 8px 10px;
+        display: inline-block;
+        }
+        .navbar li:last-child{
+            border-right:none;
+        }
+        .navbar{
+            display:inline-block;
+        }
+}
+@media (min-width:992px){
+    .navbar ul li{
+        padding: 8px 10px;
+        }
+}
