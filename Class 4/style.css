@@ -28,7 +28,7 @@
     text-decoration:none;
     color:rgb(246,254,170);
 }
-li:active a{
+a:active{
     font-size:22px;
 }
 .navbar li:last-child{
