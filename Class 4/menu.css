@@ -26,6 +26,9 @@
         padding: 8px 10px;
         display: inline-block;
         }
+        .navbar li{
+            width:17%;
+        }
         .navbar li:last-child{
             border-right:none;
         }
@@ -36,5 +39,8 @@
 @media (min-width:992px){
     .navbar ul li{
         padding: 8px 10px;
+        }
+        .navbar li{
+            width:17%;
         }
 }
