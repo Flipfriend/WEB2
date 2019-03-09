@@ -5,11 +5,9 @@
 
 .navbar h1,h2,h3{
 font-family: 'Martel','Times New Roman', Times, serif;
-font-size:28px;
 }
 
 
-p{
+.bodycopy{
 font-family: 'Oswald', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
