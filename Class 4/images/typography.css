@@ -3,7 +3,7 @@
 /* headings and nav */
 @import url('https://fonts.googleapis.com/css?family=Martel:600');
 
-h1,h2,h3{
+.navbar h1,h2,h3{
 font-family: 'Martel','Times New Roman', Times, serif;
 font-size:28px;
 }
