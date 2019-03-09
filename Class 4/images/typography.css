@@ -3,11 +3,13 @@
 /* headings and nav */
 @import url('https://fonts.googleapis.com/css?family=Martel:600');
 
-.navbar h1,h2,h3{
-font-family: 'Martel','Times New Roman', Times, serif;
+h1,h2,h3{
+    font-family: 'Martel','Times New Roman', Times, serif;
+}
+.navbar{
+    font-family: 'Martel','Times New Roman', Times, serif;
 }
 
-
 .bodycopy{
-font-family: 'Oswald', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Oswald', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
