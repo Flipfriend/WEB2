@@ -1,6 +1,6 @@
 .content{
     padding:0px 10px;
-    min-height:520px;
+    min-height:300px;
     position: relative;
 }
 .content .img_contain{
@@ -59,6 +59,13 @@
 }
 .banner{
     padding-top:35px;
+}
+.header{
+    position: relative;
+    color:rgb(246,254,170);
+    text-shadow: 2px 2px 3px gray;
+    top:75px;
+    left:181px;
 }
 @media (min-width:450px){
     .navbar ul li{
