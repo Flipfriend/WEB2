@@ -44,11 +44,16 @@
     display:block;
     background-color:rgb(35,57,91);    
 }
-.logo {
+.lg-logo{
     top: -162px;
     left: -87px;
     height: 30px;
     width: 120px;
+}
+.sm-logo{
+    height:110px;
+    width:110px;
+    
 }
 .banner{
     padding-top:35px;
@@ -73,7 +78,7 @@
         .navbar{
             display:inline-block;
         }
-        .logo{
+        .lg-logo{
             top: -47px;
             left: -82px;
             height: 30px;
@@ -92,7 +97,7 @@
         .navbar {
             display:inline-block;
         }
-        .logo{
+        .lg-logo{
             top: -47px;
             left: -87px;
             height: 30px;
