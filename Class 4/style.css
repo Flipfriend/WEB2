@@ -44,6 +44,12 @@
     display:block;
     background-color:rgb(35,57,91);    
 }
+.logo .abs-pos{
+    top: -164px;
+    left: -87px;
+    height: 30px;
+    width: 120px;
+}
 @media (min-width:450px){
     .navbar ul li{
         background-color: rgb(35,57,91);
@@ -63,6 +69,12 @@
         }
         .navbar{
             display:inline-block;
+        }
+        .logo .abs-pos{
+            top: -47px;
+            left: -87px;
+            height: 30px;
+            width: 120px;
         }
 }
 @media (min-width:992px){
