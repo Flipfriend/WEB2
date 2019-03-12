@@ -44,11 +44,14 @@
     display:block;
     background-color:rgb(35,57,91);    
 }
-.logo .abs-pos{
-    top: -164px;
+.logo {
+    top: -162px;
     left: -87px;
     height: 30px;
     width: 120px;
+}
+.banner{
+    padding-top:35px;
 }
 @media (min-width:450px){
     .navbar ul li{
@@ -70,9 +73,9 @@
         .navbar{
             display:inline-block;
         }
-        .logo .abs-pos{
+        .logo{
             top: -47px;
-            left: -87px;
+            left: -82px;
             height: 30px;
             width: 120px;
         }
@@ -89,5 +92,10 @@
         .navbar {
             display:inline-block;
         }
-
+        .logo{
+            top: -47px;
+            left: -87px;
+            height: 30px;
+            width: 120px;
+        }
 }
