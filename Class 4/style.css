@@ -67,6 +67,14 @@
     top:75px;
     left:181px;
 }
+.shoeimg{
+    height:360px;
+    width:360px;
+}
+.size-up{
+    height:230px;
+    width:300px;
+}
 @media (min-width:450px){
     .navbar ul li{
         background-color: rgb(35,57,91);
