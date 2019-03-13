@@ -45,11 +45,7 @@
     background-color:rgb(35,57,91);    
 }
 .lg-logo{
-    top: -47px;
-    left: -14px;
-    height: 25px;
-    width: 100px;
-    display: none;
+    float: left;
 }
 .sm-logo{
     height:50px;
