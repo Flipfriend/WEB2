@@ -9,6 +9,7 @@ body{
 }
 .maincontain{
     margin:auto;
+    padding-top: 25px;
 }
 /* *****************SMALL SCREENS**************/
 @media (min-width:450px){

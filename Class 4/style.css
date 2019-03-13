@@ -46,12 +46,12 @@
 }
 .lg-logo{
     float: left;
+    width: 10%;
+    display:none;
 }
 .sm-logo{
-    height:50px;
-    width:50px;
-    top:-174px;
-    left:6px;
+    float:left;
+    width:15%;
 }
 .banner{
     padding-top:35px;
@@ -60,8 +60,8 @@
     position: relative;
     color:rgb(246,254,170);
     text-shadow: 2px 2px 3px gray;
-    top:75px;
-    left:181px;
+    top: 101px;
+    left: 40%;
 }
 .shoeimg{
     height:360px;
@@ -77,10 +77,8 @@
         padding: 5px 10px;
     }
     .sm-logo{
-        height:50px;
-        width:50px;
-        top:-174px;
-        left:6px;
+        float:left;
+        width:15%;
     }
     .content .img_contain{
         min-height:200px;
@@ -102,13 +100,15 @@
         }
         .lg-logo{
             float: left;
+            width:10%;
+            display:inherit;
         }
         .sm-logo{
-            height:50px;
-            width:50px;
-            top:-174px;
-            left:6px;
+            float:left;
             display:none;
+        }
+        .home{
+            padding-right:35px;
         }
 }
 @media (min-width:840px){

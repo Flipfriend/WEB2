@@ -9,14 +9,12 @@ body{
 }
 .maincontain{
     margin:auto;
+    padding-top:35px;
 }
 /* *****************SMALL SCREENS**************/
 @media (min-width:450px){
     .maincontain{
         width:440px;
-    }
-    .floats{
-        width:50%;
     }
     .sm-width-25{
         width:25%;
@@ -36,9 +34,6 @@ body{
     .maincontain{
         width:760px;
     }
-    .floats{
-        width:33.3333%;
-    }
     .md-width-25{
         width:100%;
     }
@@ -56,9 +51,6 @@ body{
 @media (min-width:992px){
     .maincontain{
         width:960px;
-    }
-    .floats{
-        width:25%;
     }
     .lg-width-25{
         width:25%;
