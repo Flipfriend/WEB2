@@ -38,5 +38,12 @@
     margin-top: 54px;
     
     padding: 30px;
+}
 
+#vertHoriCenter2 p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateY(-50%);
+    margin:0px;
 }
