@@ -1,0 +1,24 @@
+.navwrapper{
+    display:none;
+}
+.floats{
+    background-color: aquamarine;
+}
+.content{
+    position: relative;
+}
+#vertCenter1{
+    position: relative;
+    height:200px;
+}
+#vertCenter1 img{
+    position: absolute;
+    height: 100px;      /*because we need to calculate the margin  */
+    margin-top: -50%;
+    top:50%;
+    display:block;
+}
+#lorem1{
+    position: absolute;
+    top:50%;
+}

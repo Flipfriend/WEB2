@@ -25,6 +25,9 @@ body{
     .sm-width-50{
         width:50%;
     }
+    .sm-width-66{
+        width:66.6666%;
+    }
     .sm-width-75{
         width:75%
     }
@@ -45,6 +48,9 @@ body{
     }
     .md-width-50{
         width:50%;
+    }
+    .md-width-66{
+        width:66.6666%;
     }
     .md-width-75{
         width: 75%;
