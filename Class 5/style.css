@@ -18,7 +18,25 @@
     top:50%;
     display:block;
 }
+
 #lorem1{
     position: absolute;
     top:50%;
+    position: absolute;
+    transform: translateY(-50%);
+    /* margin affected positioning in this example */
+    margin: 0px;
+}
+#vertHoriCenter1 h2{
+    position: absolute;
+    left: 50%;
+    /* half the width accounting for padding and border */
+    margin-left: -167px;
+    width: 258px;
+    /* half the height accounting for padding and border */
+    height: 28px;
+    margin-top: 54px;
+    
+    padding: 30px;
+
 }
