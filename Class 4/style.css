@@ -71,6 +71,9 @@
     height:230px;
     width:300px;
 }
+.home{
+    padding-right:35px;
+}
 @media (min-width:450px){
     .navbar ul li{
         background-color: rgb(35,57,91);
@@ -78,7 +81,7 @@
     }
     .sm-logo{
         float:left;
-        width:15%;
+        width:50px;
     }
     .content .img_contain{
         min-height:200px;
