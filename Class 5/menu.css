@@ -17,9 +17,24 @@
 }
 .checkbox {
     float: right;
+    margin-right: 20px;
 }
 .checkbox input{
-    visibility: hidden;
+    display:none;
+}
+.active{
+    margin-right: -27px;
+}
+.checkbox input:checked~ .navdown{
+    display:initial;
+}
+.navdown::after{
+    display:none;
+}
+.menu{
+    width:10%;
+    float:right;
+    margin-right:10px;
 }
 @media (min-width:450px){
     .navbar ul li{
