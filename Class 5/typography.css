@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,400,500');
 /* headings and nav */
 @import url('https://fonts.googleapis.com/css?family=Martel:700');
-
+body{
+    font-size: 10px;
+}
 .header{
     font-family: 'Martel','Times New Roman', Times, serif;
 }
@@ -12,4 +14,7 @@
 
 .bodycopy{
     font-family: 'Oswald', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content{
+    font-size:1.6em;
 }
