@@ -1,10 +1,9 @@
-.navbar ul li{
-    list-style:none;
+.navbar li{
+    list-style: none;
     text-align: center;
     padding: 5px 10px;
 }
 .navbar ul{
-    text-decoration: none;
     margin:0px;
     padding:0px;
 }
