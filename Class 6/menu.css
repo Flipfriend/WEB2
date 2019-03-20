@@ -1,0 +1,130 @@
+body{
+    margin:0px;
+}
+.nav-content{
+    position: relative;
+}
+.navdown-menu{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+ul{
+    display:none;
+}
+label{
+    cursor: pointer;
+}
+input[type=checkbox]{
+    opacity: 0;
+}
+input[type="checkbox"]:checked ~ ul{
+    display: block;
+}
+.menu{
+    width:25px;
+    height:25px;
+    float:left;
+    position: absolute;
+}
+.navdown-menu{
+    padding-top:25px;
+    text-align: center;
+}
+/* style for navbar */
+.navdown-menu{
+    color:rgb(255,255,255);
+    background-color: #f3131c;
+    padding:0px 45px;
+}
+.navwrapper{
+    background-color: #f3131c;
+    padding: 10px;
+}
+.a-nav{
+    color:white;
+    text-decoration: none;
+}
+.navdown-menu li {
+    border-bottom: 2px solid whitesmoke;
+
+}
+.navfix{
+    clear:both;
+    padding-bottom:10px;
+}
+.navdown-menu li:last-child{
+    border:none;
+}
+.navbar{
+    width: 100%;
+    min-height: 20px;
+}
+@media(min-width:450px){
+    .navwrapper{
+        padding: 10px 0px;
+    }
+    .navdown-menu{
+        padding:0px;
+        margin:0px;
+    }
+    ul{
+        display:block
+    }
+    .menu{
+        display:none;
+    }
+    .checkbox-input{
+        display:none;
+    }
+    .navdown-menu li {
+        border-right: 0px solid whitesmoke;
+        display:inline-block;
+    }
+    .navdown-menu li {
+        border-bottom: 2px solid whitesmoke;
+    }
+    .navdown-menu li:last-child{
+        border:none;
+    }
+    label{
+        display:none;
+    }
+}
+@media (min-width:768px){
+    .a-nav{
+        padding:10px;
+    }
+    li{
+        width:22%;
+    }
+    .navdown-menu{
+        float: right;
+        padding-right: 30px;
+    }
+    .menu{
+        display:none;
+    }
+    .checkbox-input{
+        display:none;
+    }
+    .navdown-menu li {
+        border-right: 2px solid whitesmoke;
+        display:inline-block;
+    }
+    .navdown-menu li {
+        border-bottom: 0px solid whitesmoke;
+    }
+    .navdown-menu li:last-child{
+        border:none;
+    }
+}
+@media (min-width: 992px){
+    .navdown-menu{
+        float: right;
+        padding-right: 35px;
+    }
+    .navdown-menu li:last-child{
+        border:none;
+    }
+}

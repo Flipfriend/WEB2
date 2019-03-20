@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,400,500');
 /* headings and nav */
 @import url('https://fonts.googleapis.com/css?family=Martel:700');
-body{
-    font-size: 10px;
-}
+
 .header{
     font-family: 'Martel','Times New Roman', Times, serif;
 }
