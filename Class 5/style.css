@@ -4,7 +4,7 @@
 }
 #logo1{
     position: relative;
-    height:200px;
+    height:100px;
 }
 #vertCenter1 img{
     position: absolute;
@@ -13,9 +13,21 @@
     top:50%;
     display:block;
 }
+.img-contain{
+    position: absolute;
+    min-height:200px;
+}
 .bkgimg1{
     background-image: url(images/interpol3.jpg);
-
+    width:100%;
+}
+.bkgimg2{
+    background-image: url(images/interpol1.jpg);
+    width:100%;
+}
+.bkgimg3{
+    background-image: url(images/interpol2.jpg);
+    width:100%;
 }
 #lyric1{
     position: absolute;
