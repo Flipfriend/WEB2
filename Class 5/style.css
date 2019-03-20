@@ -2,7 +2,7 @@
 .content{
     position: relative;
 }
-#vertCenter1{
+#logo1{
     position: relative;
     height:200px;
 }
@@ -13,8 +13,11 @@
     top:50%;
     display:block;
 }
+.bkgimg1{
+    background-image: url(images/interpol3.jpg);
 
-#lorem1{
+}
+#lyric1{
     position: absolute;
     top:50%;
     position: absolute;
@@ -22,20 +25,17 @@
     /* margin affected positioning in this example */
     margin: 0px;
 }
-#vertHoriCenter1 h2{
+#vertHoriCenter{
     position: absolute;
     left: 50%;
-    /* half the width accounting for padding and border */
-    margin-left: -167px;
-    width: 258px;
-    /* half the height accounting for padding and border */
-    height: 28px;
-    margin-top: 54px;
-    
+    margin-left: -273px;
+    width: 516px;
+    height: 179px;
+    margin-top: 104px;
     padding: 30px;
 }
 
-#vertHoriCenter2 p{
+#vertHoriCenter2 {
     position: absolute;
     top:50%;
     left:50%;
