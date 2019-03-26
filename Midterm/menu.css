@@ -20,6 +20,7 @@ input[type=checkbox]{
 }
 input[type="checkbox"]:checked ~ ul{
     display: block;
+    box-shadow: none;
 }
 #hambar{
     filter:invert(100%);
@@ -36,9 +37,9 @@ input[type="checkbox"]:checked ~ ul{
     position: absolute;
     top: 191px;
     left: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 3px;
     width: 100%;
-    padding-top:25px;
+    padding-top:11px;
     text-align: center;
 }
 /* style for navbar */
@@ -46,6 +47,8 @@ input[type="checkbox"]:checked ~ ul{
     color:rgb(255,255,255);
     background-color: #48224f;
     padding:0px -1px;
+    border-bottom: 3px solid #e3d96d;
+    box-shadow: 1px 2px 4px #9f927a;
 }
 .navwrapper{
     background-color: #48224f;
@@ -96,10 +99,17 @@ input[type="checkbox"]:checked ~ ul{
         border-bottom: 2px solid whitesmoke;
     }
     .navdown-menu li:last-child{
-        border:none;
+        border-bottom:  2px solid whitesmoke;
     }
     label{
         display:none;
+    }
+    .navdown-menu{
+    position: absolute;
+    top: 68%;
+    width:100%;
+    text-align: left;
+    padding-bottom: 5px;
     }
 }
 @media (min-width:768px){
