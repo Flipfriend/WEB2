@@ -34,7 +34,7 @@ input[type="checkbox"]:checked ~ ul{
 /* style for navbar */
 .navdown-menu{
     color:rgb(255,255,255);
-    background-color: #f3131c;
+    background-color: #48224f;
     padding:0px 45px;
 }
 .navwrapper{
