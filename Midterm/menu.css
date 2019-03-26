@@ -111,5 +111,7 @@ input[type="checkbox"]:checked ~ ul{
     }
 }
 @media (min-width: 992px){
-    
+    li{
+        width:15px;
+    }
 }
