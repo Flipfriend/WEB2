@@ -1,0 +1,49 @@
+body{
+    background-color: #f8eba6;
+}
+.logo{
+    width:111px;
+    height:85.5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -42.75px 0px 0px -55.5px;
+    z-index: 999;
+}
+#homeImg1{
+    width:226px;
+    height:376px;
+    top: 50%;
+    left: 50%;
+    margin: -113px 0px 0px -118px;
+    position: absolute;
+}
+.img-contain{
+    position: relative;
+    background-color: #48224f;
+    min-height: 404px;
+    top: 3px;
+}
+.content{
+    min-height: 530px;
+    background-color: #48224f;
+}
+.float{
+    min-height: 122px;
+}
+#ec105{
+    width:304px;
+    height:228px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin:-114px 0px 0px -152px;
+}
+#patioImg{
+    width:304px;
+    height:228px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin:-114px 0px 0px -152px;
+}

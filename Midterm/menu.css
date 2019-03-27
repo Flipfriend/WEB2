@@ -52,10 +52,11 @@ input[type="checkbox"]:checked ~ ul{
 .navwrapper{
     background-color: #48224f;
     padding: 10px 8px 65px;
-    position: relative;
+    position: fixed;
     border-bottom: 3px solid #e3d96d;
     box-shadow: 1px 5px 4px #9f927a;
     z-index:900;
+    width:100%;
 }
 .a-nav{
     color:#e3d96d;

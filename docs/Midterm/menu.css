@@ -1,0 +1,149 @@
+body{
+    margin:0px;
+}
+.nav-content{
+    position: relative;
+}
+.navdown-menu{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+ul{
+    display:none;
+}
+label{
+    cursor: pointer;
+}
+input[type=checkbox]{
+    opacity: 0;
+}
+input[type="checkbox"]:checked ~ ul{
+    display: block;
+}
+#hambar{
+    filter:invert(100%);
+}
+.menu{
+    width:25px;
+    height:25px;
+    float:left;
+    position: absolute;
+}
+
+.navdown-menu{
+    margin-top: -96px;
+    position: absolute;
+    top: 191px;
+    left: 0px;
+    padding-bottom: 3px;
+    width: 100%;
+    padding-top:11px;
+    text-align: center;
+}
+/* style for navbar */
+.navdown-menu{
+    color:rgb(255,255,255);
+    background-color: #48224f;
+    padding:0px -1px;
+    border-bottom: 3px solid #e3d96d;
+    box-shadow: 1px 5px 4px #9f927a;
+}
+.navwrapper{
+    background-color: #48224f;
+    padding: 10px 8px 65px;
+    position: relative;
+    border-bottom: 3px solid #e3d96d;
+    box-shadow: 1px 5px 4px #9f927a;
+    z-index:900;
+}
+.a-nav{
+    color:#e3d96d;
+    text-decoration: none;
+}
+.navdown-menu li {
+    border-bottom: 2px solid whitesmoke;
+
+}
+.navfix{
+    clear:both;
+    padding-bottom:10px;
+}
+.navdown-menu li:last-child{
+    border:none;
+}
+.navbar{
+    width: 100%;
+    min-height: 20px;
+}
+@media(min-width:450px){
+    .navdown-menu{
+        display:inline-block;
+        padding:0px;
+        margin:0px;
+    }
+    ul{
+        display:block
+    }
+    .menu{
+        display:none;
+    }
+    .checkbox-input{
+        display:none;
+    }
+    .navdown-menu li {
+        border-right: 0px solid whitesmoke;
+        display:inline-block;
+    }
+    .navdown-menu li {
+        border-bottom: 2px solid whitesmoke;
+    }
+    .navdown-menu li:last-child{
+        border-bottom:  2px solid whitesmoke;
+    }
+    label{
+        display:none;
+    }
+    .navwrapper{
+        box-shadow:none;
+    }
+    .navdown-menu{
+    position: absolute;
+    top: 82%;
+    width:100%;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-left:5px;
+    }
+    input[type="checkbox"]:checked ~ ul{
+        display: block;
+        box-shadow: none;
+    }
+}
+@media (min-width:768px){
+    .navdown-menu{
+        display:inline-block;
+    }
+    .menu{
+        display:none;
+    }
+    .checkbox-input{
+        display:none;
+    }
+    .navdown-menu li {
+        border-right: 2px solid whitesmoke;
+        display:inline-block;
+    }
+    .navdown-menu li {
+        border-bottom: 0px solid whitesmoke;
+    }
+    .navdown-menu li:last-child{
+        border:none;
+    }
+}
+@media (min-width: 992px){
+    li{
+        width:15px;
+        
+    }
+}
