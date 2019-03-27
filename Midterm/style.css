@@ -7,3 +7,17 @@
     margin: -42.75px 0px 0px -55.5px;
     z-index: 999;
 }
+#homeImg1{
+    width:226px;
+    height:376px;
+    top: 50%;
+    left: 50%;
+    margin: -113px 0px 0px -118px;
+    position: absolute;
+}
+.img-contain{
+    position: relative;
+    background-color: #48224f;
+    min-height: 404px;
+    top: 20px;
+}

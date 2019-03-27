@@ -10,6 +10,9 @@ body{
 .maincontain{
     margin:auto;
 }
+.content{
+    position: relative;
+}
 /* *****************SMALL SCREENS**************/
 @media (min-width:450px){
     .maincontain{
