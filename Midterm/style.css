@@ -1,3 +1,6 @@
+body{
+    background-color: #f8eba6;
+}
 .logo{
     width:111px;
     height:85.5px;
@@ -19,5 +22,12 @@
     position: relative;
     background-color: #48224f;
     min-height: 404px;
-    top: 20px;
+    top: 3px;
+}
+.content{
+    min-height: 530px;
+    background-color: #48224f;
+}
+.float{
+    min-height: 122px;
 }
