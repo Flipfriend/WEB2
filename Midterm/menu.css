@@ -34,8 +34,8 @@ input[type="checkbox"]:checked ~ ul{
 .navdown-menu{
     margin-top: -96px;
     position: absolute;
-    top: 191px;
-    left: 0px;
+    top: 187px;
+    left: -8px;
     padding-bottom: 3px;
     width: 100%;
     padding-top:11px;
