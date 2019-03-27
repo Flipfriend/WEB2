@@ -31,3 +31,19 @@ body{
 .float{
     min-height: 122px;
 }
+#ec105{
+    width:304px;
+    height:228px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin:-114px 0px 0px -152px;
+}
+#patioImg{
+    width:304px;
+    height:228px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin:-114px 0px 0px -152px;
+}
