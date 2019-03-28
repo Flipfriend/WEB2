@@ -1,3 +1,4 @@
+/* default screen start */
 body{
     margin:0px;
 }
@@ -77,6 +78,10 @@ input[type="checkbox"]:checked ~ ul{
     width: 100%;
     min-height: 20px;
 }
+/* default screen end */
+
+
+/* small screen start */
 @media(min-width:450px){
     .navdown-menu{
         display:inline-block;
@@ -121,6 +126,9 @@ input[type="checkbox"]:checked ~ ul{
         box-shadow: none;
     }
 }
+/* small screen end*/
+
+/* medium screen start*/
 @media (min-width:768px){
     .navdown-menu{
         display:inline-block;
@@ -142,6 +150,9 @@ input[type="checkbox"]:checked ~ ul{
         border:none;
     }
 }
+/* medium screen end */
+
+/* Large screen start*/
 @media (min-width: 992px){
     li{
         padding: 0px 15px;
@@ -153,3 +164,4 @@ input[type="checkbox"]:checked ~ ul{
         margin:0px;
     }
 }
+/* large screen end */
