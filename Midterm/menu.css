@@ -144,7 +144,12 @@ input[type="checkbox"]:checked ~ ul{
 }
 @media (min-width: 992px){
     li{
-        width:15px;
+        padding: 0px 15px;
         
+    }
+    .navdown-menu{
+        display:inline-block;
+        padding:0px;
+        margin:0px;
     }
 }
