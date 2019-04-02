@@ -45,13 +45,13 @@ input[type="checkbox"]:checked ~ ul{
 /* style for navbar */
 .navdown-menu{
     color:rgb(255,255,255);
-    background-color: #48224f;
+    background-color: #110025;
     padding:0px -1px;
     border-bottom: 3px solid #e3d96d;
     box-shadow: 1px 5px 4px #9f927a;
 }
 .navwrapper{
-    background-color: #48224f;
+    background-color: #110025;
     padding: 10px 8px 65px;
     position: fixed;
     border-bottom: 3px solid #e3d96d;
@@ -70,6 +70,7 @@ input[type="checkbox"]:checked ~ ul{
 .navfix{
     clear:both;
     padding-bottom:10px;
+    margin-bottom:124px;
 }
 .navdown-menu li:last-child{
     border:none;

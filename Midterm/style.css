@@ -1,5 +1,5 @@
 body{
-    background-color: #f8eba6;
+    background-color: #fffefe;
 }
 .logo{
     width:111px;
@@ -10,40 +10,50 @@ body{
     margin: -42.75px 0px 0px -55.5px;
     z-index: 999;
 }
-#homeImg1{
-    width:226px;
-    height:376px;
-    top: 50%;
-    left: 50%;
-    margin: -113px 0px 0px -118px;
+
+.img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
     position: absolute;
+    object-fit: cover;
+    margin-top:-3px;
 }
 .img-contain{
     position: relative;
     background-color: #48224f;
-    min-height: 404px;
+    min-height: 530px;
     top: 3px;
 }
 .content{
     min-height: 530px;
-    background-color: #48224f;
+    background-color: #110025;
 }
 .float{
     min-height: 122px;
 }
-#ec105{
-    width:304px;
-    height:228px;
+
+.gradient{
+    width: 100%;
+    height: 50%;
     position: absolute;
-    left:50%;
-    top:50%;
-    margin:-114px 0px 0px -152px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,0,37,0.85) 100%);
+    transition: all .3s ease;
+    z-index: 11;
 }
-#patioImg{
-    width:304px;
-    height:228px;
-    position: absolute;
-    left:50%;
-    top:50%;
-    margin:-114px 0px 0px -152px;
-}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

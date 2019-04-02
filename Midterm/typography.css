@@ -1,10 +1,14 @@
 /* Parisienne (headers) and Roboto Condensed (bodycopy) */
 @import url('https://fonts.googleapis.com/css?family=Parisienne|Roboto+Condensed:400,400i,700');
 
+/* 'Oleo Script Swash Caps' headers maybe */
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps');
+
 .header{
     font-family: 'Parisienne', cursive;
     color:white;
-    padding:10px;
+    padding:20px 15px;
+    margin: 0px;
 
 }
 .navbar a{
