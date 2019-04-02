@@ -58,9 +58,9 @@ body{
     cursor: pointer;
     z-index: 100;
     position: absolute;
-    top: 100%;
+    top: 120%;
     left: 50%;
-    margin: -76.33px;
+    margin: -101.675px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgbargba(17,0,37,0.19)
 }
 .button_link {
@@ -71,4 +71,16 @@ body{
     text-decoration: none;
     color:white;
     background-color: rgba(194,151,184,0.3)
+}
+
+ /* Form section style */
+.labelname{
+    color:white;
+}
+.form-input{
+
+}
+.message-box{
+    font-size: .667em;
+    color:white;
 }

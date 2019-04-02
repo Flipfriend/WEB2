@@ -23,9 +23,9 @@
                 <img class="logo"src="../images/vgec-logo.png" alt="Villa Graziadio Executive Center" title="Villa Graziadio Executive Center"> 
                         <input class="checkbox-input" type="checkbox"for="toggle-1">
                         <ul class="navdown-menu">    
-                            <li><a class="a-nav" href="index.html">Home</a></li>
-                            <li><a class="a-nav" href="contact.html">Who We Are</a></li>
-                            <li><a class="a-nav" href="about.html">What We Do</a></li>
+                            <li><a class="a-nav" href="../index.html">Home</a></li>
+                            <li><a class="a-nav" href="../contact.html">Who We Are</a></li>
+                            <li><a class="a-nav" href="../about.html">What We Do</a></li>
                         </ul>
                                
             </nav>
@@ -39,24 +39,24 @@
                 <form action="create.process.php" method="GET">
                
                             <!--first name section-->
-                            <label for="fname"></label>
+                            <label for="fname"class="form-input labelname">First Name</label>
                             <input id="fname" class="form-input" type="text" name="firstname" placeholder="First Name" required>
                                
                             <!--last name section-->
-                            <label for="lname"></label>
+                            <label for="lname"class="form-input labelname">Last Name</label>
                             <input id="lname" class="form-input" type="text" name="lastname" placeholder="Last Name" required>
                                
                             <!--Address section-->
-                            <label for="address"></label>
+                            <label for="address"class="form-input labelname">Address</label>
                             <input id="address1" class="form-input" type="text" name="address1" placeholder="Address" required>
-                            <input id="address2" class="form-input" type="text" name="address2" placeholder="Address">
+                            <input id="address2" class="form-input" type="text" name="address2" placeholder="">
                                 
                             <!--city location-->
-                            <label for="city"></label>
+                            <label for="city"class="form-input labelname">City</label>
                             <input id="city" class="form-input" type="text" name="city" placeholder="City" required>
                                
                             <!--State dropdown-->
-                            <label for="state"></label>
+                            <label for="state" class="form-input labelname">State</label>
                             <select id="state" class="form-input form-drop-down" type="text" name="states" aria-placeholder="state" required>
                                     <option value="AL" selected>Alabama</option>
                                     <option value="AK">Alaska</option>
@@ -112,10 +112,11 @@
                             </select>
                                 
                             <!--Zipcode section-->
-                            <label for="zipcode"></label>
+                            <label for="zipcode"class="form-input labelname">Zip</label>
                             <input id="zip" class="form-input" type="text" name="zipcode" placeholder="Zip" required>
 
                             <!-- Country section -->
+                            <label for="country" class="form-input labelname">Country</label>
                             <select name="country" class="form-input form-drop-down" >
                                     <option value="United States">United States</option>
                                     <option value="Afghanistan">Afghanistan</option>
@@ -338,23 +339,24 @@
                                     <option value="Zimbabwe">Zimbabwe</option>
                                   </select>    
                             <!--phone number--> 
-                            <label for="phone"></label>
+                            <label for="phone"class="form-input labelname">Phone</label>
                             <input id="phone" class="form-input" type="text" name="phone" placeholder="Phone" required>
 
                             <!--email section-->
-                            <label for="email"></label>
+                            <label for="email" class="form-input labelname">Email</label>
                             <input id="email" class="form-input" type ="text" name="email" placeholder="Email" required>
 
                             <!-- Arrival and departure date -->
-                            <label for="date" class="form-input"></label>
-                            <input id="arrivalDate" class="form-input date-arrival"type="date" name="arrival-date">
-                            <input id="departureDate" class="form-input date-depart"type="date" name="departure-date">
-
-                            <textarea name="message" rows="10" cols="40" placeholder="Message"></textarea>
+                            <label for="date1" class="form-input labelname">Arrival</label>
+                            <input id="arrivalDate" class="form-input labelname date-arrival"type="date" name="arrival-date">
+                            <label for="date2" class="form-input">Departure</label>
+                            <input id="departureDate" class="form-input labelname date-depart"type="date" name="departure-date">
+                            <label for="message" class="form-input message-box" id="messageLabel">Fill in Details Below</label>
+                            <textarea class="text-area" name="message" rows="10" cols="40" placeholder="Message"></textarea>
                                 
                                 
-                                
-                            <input type="submit">
+                            <label for="submit" class="form-input"></label>    
+                            <input type="submit" name="Submit" value="Submit">
                         </form>
                             
 

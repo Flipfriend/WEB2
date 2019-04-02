@@ -1,7 +1,7 @@
 /* Parisienne (headers) and Roboto Condensed (bodycopy) */
 @import url('https://fonts.googleapis.com/css?family=Parisienne|Roboto+Condensed:400,400i,700');
 
-/* 'Abirl Fatface' headers maybe */
+/* 'Abril Fatface' headers maybe */
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
 .header{
@@ -11,6 +11,16 @@
     margin: 0px;
     font-weight: 500;
 
+}
+.mainhead{
+    font-family: 'Parisienne', cursive;
+    margin:0px;
+    color:white;
+    position: absolute;
+    top:30px;
+    left:87px;
+    z-index:111;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3)
 }
 .navbar a{
     font-family: 'Roboto Condensed','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,6 +35,10 @@
 }
 .content{
     font-size:1.2em;
+}
+.label,.form-input{
+    font-family: 'Roboto Condensed', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 
