@@ -124,7 +124,7 @@ input[type="checkbox"]:checked ~ ul{
     width:100%;
     text-align: left;
     padding-bottom: 7px;
-    padding-left:5px;
+    padding-left: 25px;
     }
     input[type="checkbox"]:checked ~ ul{
         display: block;
@@ -172,8 +172,12 @@ input[type="checkbox"]:checked ~ ul{
     }
     .navdown-menu{
         display:inline-block;
-        padding:0px;
+        padding-bottom:7px;
         margin:0px;
+        padding-left: 25px
+    }
+    .content{
+        min-height: 0px;
     }
 }
 /* large screen end */
