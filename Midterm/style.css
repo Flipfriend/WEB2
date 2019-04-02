@@ -7,7 +7,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -42.75px 0px 0px -55.5px;
+    margin: -62.75px 0px 0px -58.5px;
     z-index: 999;
 }
 
@@ -21,13 +21,14 @@ body{
 }
 .img-contain{
     position: relative;
-    background-color: #48224f;
+    background-color: #110025;
     min-height: 530px;
     top: 3px;
 }
 .content{
-    min-height: 530px;
+    min-height: 634px;
     background-color: #110025;
+    box-shadow: 1px 1px 5px 0px #110025;
 }
 .float{
     min-height: 122px;

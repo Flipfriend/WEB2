@@ -47,20 +47,20 @@ input[type="checkbox"]:checked ~ ul{
     color:rgb(255,255,255);
     background-color: #110025;
     padding:0px -1px;
-    border-bottom: 3px solid #e3d96d;
+    border-bottom: 3px solid #e5b56e;
     box-shadow: 1px 5px 4px #9f927a;
 }
 .navwrapper{
     background-color: #110025;
-    padding: 10px 8px 65px;
+    padding: 8px 8px 124px;
     position: fixed;
-    border-bottom: 3px solid #e3d96d;
+    border-bottom: 3px solid #e5b56e;
     box-shadow: 1px 5px 4px #9f927a;
     z-index:900;
     width:100%;
 }
 .a-nav{
-    color:#e3d96d;
+    color:#e5b56e;
     text-decoration: none;
 }
 .navdown-menu li {
@@ -70,14 +70,14 @@ input[type="checkbox"]:checked ~ ul{
 .navfix{
     clear:both;
     padding-bottom:10px;
-    margin-bottom:124px;
+    margin-bottom:155px;
 }
 .navdown-menu li:last-child{
     border:none;
 }
 .navbar{
     width: 100%;
-    min-height: 20px;
+    margin-top: -5px;
 }
 .active{
     border-bottom: 3px solid whitesmoke;
