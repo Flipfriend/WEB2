@@ -78,7 +78,7 @@ body{
     color:white;
 }
 .form-input{
-
+    width:25%;
 }
 .message-box{
     font-size: .667em;
@@ -111,6 +111,6 @@ body{
         top: 100%;
         left: 50%;
         margin: -101.675px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgbargba(17,0,37,0.19)
-    
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgbargba(17,0,37,0.19);
+    }
 }
