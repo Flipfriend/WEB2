@@ -70,7 +70,7 @@ input[type="checkbox"]:checked ~ ul{
 .navfix{
     clear:both;
     padding-bottom:10px;
-    margin-bottom:155px;
+    margin-bottom:175px;
 }
 .navdown-menu li:last-child{
     border:none;

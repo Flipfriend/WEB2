@@ -77,12 +77,14 @@ body{
 .labelname{
     color:white;
 }
-.form-input{
-    width:25%;
-}
+
 .message-box{
     font-size: .667em;
     color:white;
+    
+}
+textarea{
+    font-family:'Roboto Condensed''Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .footer{
     background-color:#c297b8;
@@ -94,8 +96,32 @@ body{
     border-bottom: 1px solid #110025;
     text-align: center;
 }
+.form-input{
+    display: inherit;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+textarea{
+    margin:20px 15px;
+    margin-bottom:100px;
+}
+.section1{
+    padding-top:15px;
+}
+#submitButton{
+    left: 117px;
+    top: 859px;
+}
+@media (min-width:768px){
+
+}
 /* Large Screen */
 @media (min-width:992px){
+    .form-input{
+        width: 50%;
+        margin: auto;
+    }
+    
     .button {
         background-color: #c297b8;
         border: none;

@@ -33,11 +33,12 @@
     </div>
     <div class="navfix"></div>
     <div class="maincontain">
-        <div class="floats sm-width-100 md-width-50 lg-width-100">
+        <div class="floats sm-width-100 md-width-100 lg-width-100">
             <div class="content">
                 
                 <form action="create.process.php" method="GET">
-               
+                        <!-- Beginning of section 1 -->
+                        <div class="section1">
                             <!--first name section-->
                             <label for="fname"class="form-input labelname">First Name</label>
                             <input id="fname" class="form-input" type="text" name="firstname" placeholder="First Name" required>
@@ -337,7 +338,11 @@
                                     <option value="Yemen">Yemen</option>
                                     <option value="Zambia">Zambia</option>
                                     <option value="Zimbabwe">Zimbabwe</option>
-                                  </select>    
+                                  </select>  
+                        </div>    
+                        <!-- end of section1 -->
+                        <!-- beginning of section 2 -->
+                        <div class="section2">
                             <!--phone number--> 
                             <label for="phone"class="form-input labelname">Phone</label>
                             <input id="phone" class="form-input" type="text" name="phone" placeholder="Phone" required>
@@ -348,15 +353,20 @@
 
                             <!-- Arrival and departure date -->
                             <label for="date1" class="form-input labelname">Arrival</label>
-                            <input id="arrivalDate" class="form-input labelname date-arrival"type="date" name="arrival-date">
-                            <label for="date2" class="form-input">Departure</label>
-                            <input id="departureDate" class="form-input labelname date-depart"type="date" name="departure-date">
+                            <input id="arrivalDate" class="form-input date-arrival"type="date" name="arrival-date">
+                            <label for="date2" class="form-input labelname">Departure</label>
+                            <input id="departureDate" class="form-input date-depart"type="date" name="departure-date">
+                        </div>
+                        <!-- end of section 2     -->
+
+                        <div class="clearfix"></div>
+
                             <label for="message" class="form-input message-box" id="messageLabel">Fill in Details Below</label>
                             <textarea class="text-area" name="message" rows="10" cols="40" placeholder="Message"></textarea>
                                 
                                 
                             <label for="submit" class="form-input"></label>    
-                            <input type="submit" name="Submit" value="Submit">
+                            <input class="button" id="submitButton" type="submit" name="Submit" value="Submit">
                         </form>
                             
 

@@ -1,8 +1,6 @@
 /* Parisienne (headers) and Roboto Condensed (bodycopy) */
 @import url('https://fonts.googleapis.com/css?family=Parisienne|Roboto+Condensed:400,400i,700');
 
-/* 'Abril Fatface' headers maybe */
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
 .header{
     font-family: 'Roboto Condensed','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -36,9 +34,8 @@
 .content{
     font-size:1.2em;
 }
-.label,.form-input{
+.label,.form-input,textarea{
     font-family: 'Roboto Condensed', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
 
 
