@@ -1,3 +1,4 @@
+/* default screen start */
 body{
     margin:0px;
 }
@@ -34,8 +35,8 @@ input[type="checkbox"]:checked ~ ul{
 .navdown-menu{
     margin-top: -96px;
     position: absolute;
-    top: 191px;
-    left: 0px;
+    top: 187px;
+    left: -8px;
     padding-bottom: 3px;
     width: 100%;
     padding-top:11px;
@@ -44,21 +45,22 @@ input[type="checkbox"]:checked ~ ul{
 /* style for navbar */
 .navdown-menu{
     color:rgb(255,255,255);
-    background-color: #48224f;
+    background-color: #110025;
     padding:0px -1px;
-    border-bottom: 3px solid #e3d96d;
+    border-bottom: 3px solid #e5b56e;
     box-shadow: 1px 5px 4px #9f927a;
 }
 .navwrapper{
-    background-color: #48224f;
-    padding: 10px 8px 65px;
-    position: relative;
-    border-bottom: 3px solid #e3d96d;
+    background-color: #110025;
+    padding: 8px 8px 124px;
+    position: fixed;
+    border-bottom: 3px solid #e5b56e;
     box-shadow: 1px 5px 4px #9f927a;
     z-index:900;
+    width:100%;
 }
 .a-nav{
-    color:#e3d96d;
+    color:#e5b56e;
     text-decoration: none;
 }
 .navdown-menu li {
@@ -68,14 +70,22 @@ input[type="checkbox"]:checked ~ ul{
 .navfix{
     clear:both;
     padding-bottom:10px;
+    margin-bottom:175px;
 }
 .navdown-menu li:last-child{
     border:none;
 }
 .navbar{
     width: 100%;
-    min-height: 20px;
+    margin-top: -5px;
 }
+.active{
+    border-bottom: 3px solid whitesmoke;
+}
+/* default screen end */
+
+
+/* small screen start */
 @media(min-width:450px){
     .navdown-menu{
         display:inline-block;
@@ -94,6 +104,7 @@ input[type="checkbox"]:checked ~ ul{
     .navdown-menu li {
         border-right: 0px solid whitesmoke;
         display:inline-block;
+        padding:0px 8px;
     }
     .navdown-menu li {
         border-bottom: 2px solid whitesmoke;
@@ -112,14 +123,20 @@ input[type="checkbox"]:checked ~ ul{
     top: 82%;
     width:100%;
     text-align: left;
-    padding-bottom: 5px;
-    padding-left:5px;
+    padding-bottom: 7px;
+    padding-left: 25px;
     }
     input[type="checkbox"]:checked ~ ul{
         display: block;
         box-shadow: none;
     }
+    .active a{
+        font-size:18px;
+    }
 }
+/* small screen end*/
+
+/* medium screen start*/
 @media (min-width:768px){
     .navdown-menu{
         display:inline-block;
@@ -133,6 +150,7 @@ input[type="checkbox"]:checked ~ ul{
     .navdown-menu li {
         border-right: 2px solid whitesmoke;
         display:inline-block;
+        padding: 0px 8px;
     }
     .navdown-menu li {
         border-bottom: 0px solid whitesmoke;
@@ -140,10 +158,27 @@ input[type="checkbox"]:checked ~ ul{
     .navdown-menu li:last-child{
         border:none;
     }
-}
-@media (min-width: 992px){
-    li{
-        width:15px;
-        
+    .active a{
+        font-size:18px;
     }
 }
+/* medium screen end */
+
+/* Large screen start*/
+@media (min-width: 992px){
+    li{
+        padding: 0px 15px;
+        
+    }
+    .navdown-menu{
+        display:inline-block;
+        padding-bottom:7px;
+        margin:0px;
+        padding-left: 25px
+    }
+    .content{
+        min-height: 0px;
+    }
+    
+}
+/* large screen end */

@@ -1,5 +1,5 @@
 body{
-    background-color: #f8eba6;
+    background-color: #fffefe;
 }
 .logo{
     width:111px;
@@ -7,43 +7,136 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -42.75px 0px 0px -55.5px;
+    margin: -62.75px 0px 0px -58.5px;
     z-index: 999;
 }
-#homeImg1{
-    width:226px;
-    height:376px;
-    top: 50%;
-    left: 50%;
-    margin: -113px 0px 0px -118px;
+
+.img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
     position: absolute;
+    object-fit: cover;
+    margin-top:-3px;
 }
 .img-contain{
     position: relative;
-    background-color: #48224f;
-    min-height: 404px;
+    background-color: #110025;
+    min-height: 530px;
     top: 3px;
 }
 .content{
-    min-height: 530px;
-    background-color: #48224f;
+    min-height: 634px;
+    background-color: #110025;
+    box-shadow: 1px 1px 5px 0px #110025;
 }
 .float{
     min-height: 122px;
 }
-#ec105{
-    width:304px;
-    height:228px;
+
+.gradient{
+    width: 100%;
+    height: 50%;
     position: absolute;
-    left:50%;
-    top:50%;
-    margin:-114px 0px 0px -152px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,0,37,0.85) 100%);
+    transition: all .3s ease;
+    z-index: 11;
 }
-#patioImg{
-    width:304px;
-    height:228px;
+.button {
+    background-color: #c297b8;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    z-index: 100;
     position: absolute;
-    left:50%;
-    top:50%;
-    margin:-114px 0px 0px -152px;
+    top: 120%;
+    left: 50%;
+    margin: -101.675px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgbargba(17,0,37,0.19)
+}
+.button_link {
+    text-decoration: none;
+    color: white;
+}
+.button a:visted{
+    text-decoration: none;
+    color:white;
+    background-color: rgba(194,151,184,0.3)
+}
+
+ /* Form section style */
+.labelname{
+    color:white;
+}
+
+.message-box{
+    font-size: .667em;
+    color:white;
+    
+}
+textarea{
+    font-family:'Roboto Condensed''Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer{
+    background-color:#c297b8;
+    color:white;
+    margin:auto;
+    padding:6px 0px 4px;
+    display: block;
+    border-top: 1px solid #110025;
+    border-bottom: 1px solid #110025;
+    text-align: center;
+}
+.form-input{
+    display: inherit;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+textarea{
+    margin:20px 15px;
+    margin-bottom:100px;
+}
+.section1{
+    padding-top:15px;
+}
+#submitButton{
+    left: 117px;
+    top: 859px;
+}
+@media (min-width:768px){
+
+}
+/* Large Screen */
+@media (min-width:992px){
+    .form-input{
+        width: 50%;
+        margin: auto;
+    }
+    
+    .button {
+        background-color: #c297b8;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        z-index: 100;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin: -101.675px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgbargba(17,0,37,0.19);
+    }
 }
