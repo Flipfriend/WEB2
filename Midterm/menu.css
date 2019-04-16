@@ -4,6 +4,7 @@ body{
 }
 .nav-content{
     position: relative;
+    cursor: pointer;
 }
 .navdown-menu{
     margin:0px;
@@ -13,9 +14,7 @@ body{
 ul{
     display:none;
 }
-label{
-    cursor: pointer;
-}
+
 input[type=checkbox]{
     opacity: 0;
 }
@@ -112,7 +111,7 @@ input[type="checkbox"]:checked ~ ul{
     .navdown-menu li:last-child{
         border-bottom:  2px solid whitesmoke;
     }
-    label{
+    .nav-content{
         display:none;
     }
     .navwrapper{
