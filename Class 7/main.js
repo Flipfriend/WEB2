@@ -1,34 +1,36 @@
-// var numberSpan = document.getElementById("numberBox");
-// var randomNumber = Math.random()*2;
-// numberSpan.innerText = randomNumber;
+var numberSpan = document.getElementById("numberBox");
+    var randomNumber = Math.random()*2;
+    numberSpan.innerText = randomNumber;
 
+    var changeBackground = function(){
+        var redColor = Math.random()*255;
+        var greenColor = Math.random()*255;
+        var blueColor = Math.random()*255;
 
-// // var redColor = Math.random()*255;
-// // var greenColor = Math.random()*255;
-// // var blueColor = Math.random()*255;
+        var textColor = "rgb("+redColor+","+greenColor+","+blueColor+")";
 
-// // var textColor = "rgb("+redColor+","+greenColor+","+blueColor+")";
+        var body = document.getElementById("mainBody");
 
+        body.style.backgroundColor = textColor;
+    }
 
-// // var subHeader = numberSpan.parentElement;
-// // // subHeader.style.color = textColor;
+    // // var redColor = Math.random()*255;
+    // // var greenColor = Math.random()*255;
+    // // var blueColor = Math.random()*255;
 
-// // body.style.backgroundColor = textColor;
+    // // var textColor = "rgb("+redColor+","+greenColor+","+blueColor+")";
+    
 
-// var myButton = document.getElementById("triggerButton");
+    // // var subHeader = numberSpan.parentElement;
+    // // // subHeader.style.color = textColor;
 
-// myButton.addEventListener("click",function(){
-//     var redColor = Math.random()*255;
-//     var greenColor = Math.random()*255;
-//     var blueColor = Math.random()*255;
+    // // body.style.backgroundColor = textColor;
 
-//     var textColor = "rgb("+redColor+","+greenColor+","+blueColor+")";
+    var myButton = document.getElementById("triggerButton");
 
-//     var body = document.getElementById("mainBody");
+    myButton.addEventListener("click", changeBackground);
 
-//     body.style.backgroundColor = textColor;
-
-// })
+    changeBackground();
 
 
     

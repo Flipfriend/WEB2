@@ -10,7 +10,7 @@
     <!-- layout style -->
     <link rel="stylesheet" type="text/css" media="screen" href="layout.css">
     <!--Scripts-->
-    <script src="main.js"></script>
+    
 </head>
 <body id="mainBody">
     <h1>Hello, World!</h1>
@@ -18,42 +18,6 @@
     <button id="triggerButton">Span</button>
     <h2>Today's Number is: <span id="numberBox"></span></h2>
 
-<script>    
-
-    var numberSpan = document.getElementById("numberBox");
-    var randomNumber = Math.random()*2;
-    numberSpan.innerText = randomNumber;
-
-    var changeBackground = function(){
-        var redColor = Math.random()*255;
-        var greenColor = Math.random()*255;
-        var blueColor = Math.random()*255;
-
-        var textColor = "rgb("+redColor+","+greenColor+","+blueColor+")";
-
-        var body = document.getElementById("mainBody");
-
-        body.style.backgroundColor = textColor;
-    }
-
-    // // var redColor = Math.random()*255;
-    // // var greenColor = Math.random()*255;
-    // // var blueColor = Math.random()*255;
-
-    // // var textColor = "rgb("+redColor+","+greenColor+","+blueColor+")";
-    
-
-    // // var subHeader = numberSpan.parentElement;
-    // // // subHeader.style.color = textColor;
-
-    // // body.style.backgroundColor = textColor;
-
-    var myButton = document.getElementById("triggerButton");
-
-    myButton.addEventListener("click", changeBackground);
-
-    changeBackground();
-
-</script>
     </body>
+    <script src="main.js"></script>
 </html>
