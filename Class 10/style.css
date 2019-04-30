@@ -1,3 +1,28 @@
 .kittenimg{
-    display:hidden;
+    display:none;
+}
+
+#mainButton{
+    background-color:#578d93;
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    padding:15px;
+    position: absolute;
+    top:380px;
+    left:380px;
+    border:none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 1px .2px rgba(255,253,247,.2);
+}
+button{
+    text-decoration: none;
+}
+.maincontain{
+    width:960px;
+    background-color:#ce5f5f;
+    position: relative;
+}
+body{
+    background-color:#ce5f5f;
 }
