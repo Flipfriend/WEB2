@@ -12,6 +12,8 @@ function displayImage(){
 
 var myButton = document.getElementById('mainButton');
 
-myButton.addEventListener("click",displayImage);
+myButton.addEventListener("click", displayImage);
+
 
 displayImage();
+
