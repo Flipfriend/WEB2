@@ -1,7 +1,11 @@
-/* .navbar{
-
+.navbar{
+    width:100%;
+    z-index: 9999;
 }
 
-.linem{
+.line-menu{
     color:black;
-} */
+    width:25px;
+    height:5px;
+
+}   
