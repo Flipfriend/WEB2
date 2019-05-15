@@ -16,25 +16,40 @@
     <div class="maincontain">
         <div class="floats sm-width-25 md-width-50 lg-width-100">
             <div class="content">
-                <img >
-                <p></p>
+                <h1 class="header" id="Top">Hello World!</h1>
+            </div>
+
+            <div class="container">I am child 1
+                <div class="box"></div>
             </div>
         </div>
-        <div class="floats sm-width-25 md-width-50 lg-width-100">
-            <div class="content">
-                <img >
-                <p></p>
-            </div>
-        </div>
-        <div class="floats sm-width-25 md-width-50 lg-width-100">
-            <div class="content">
-                
-            </div>
-        </div>
+        <form action="" method="POST">
+            <input type="text" name="name" id="myName"><input>
+            <input type="email" name="email" id="myEmail"><input>
+            <select id="FX" name="effects">
+                <option value="" default></option>
+                <option value="show">Show Element</option>
+                <option value="hide">Hide Element</option>
+                <option value="fadein">Fade It In</option>
+                <option value="fadeout">Fade It Out</option>
+                <option value="slidedown">Slide Down</option>
+                <option value="slideup">Slide Up</option>
+
+            </select>
+            <input type="submit" value="Submit"><input>
+        </form>
+
+        <button id="btn1">Append Things</button>
+        <button id="btn2">Prepend Things</button>
+        <button id="btn3">Remove Addons</button>
+        <button id="btn4">Empty Container</button>
+        <button id="colorToggle">Switch Color</button>
+       
         
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <!--Scripts-->
     <script src="main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
 </body>
 </html>
