@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
- $('.navbar').toggle()
+ $('#mnubtn').toggle('.navbar');
 
 
     
