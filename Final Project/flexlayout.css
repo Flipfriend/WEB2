@@ -2,7 +2,6 @@
     position: relative;
     display:flex;
     flex-direction: row;
-    /* justify-content: flex-start; */
     flex-wrap: wrap;
 }
 
@@ -11,7 +10,7 @@
     #mnubtn{
         display:none;
     }
-    /* .flex{
-         justify-content: space-evenly;
-    }*/
+    .flex{
+        display:inherit;
+    }
 } 

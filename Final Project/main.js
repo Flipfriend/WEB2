@@ -1,9 +1,8 @@
 $(document).ready(function(){
-
+    
+    $('#navbar1').hide();
+    
     $('#mnubtn').click(function(){
-        $('#navbar').toggle("slow");
-    });
-    
-
-    
+        $('#navbar1').toggle("slow");
+    });    
 });
