@@ -1,0 +1,17 @@
+.flex{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    flex-wrap: wrap;
+}
+
+
+@media (min-width:768px){
+    #mnubtn{
+        display:none;
+    }
+    /* .flex{
+         justify-content: space-evenly;
+    }*/
+} 

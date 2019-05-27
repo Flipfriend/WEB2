@@ -1,7 +1,9 @@
 $(document).ready(function(){
 
- $('#mnubtn').toggle('.navbar');
-
+    $('#mnubtn').click(function(){
+        $('#navbar').toggle("slow");
+    });
+    
 
     
 });
