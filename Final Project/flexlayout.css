@@ -1,8 +1,7 @@
-.flex{
+.icon-logo{
     position: relative;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin-bottom:50px;
+    float: right;
 }
 .forminput{
     display:flex;

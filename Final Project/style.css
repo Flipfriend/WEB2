@@ -12,6 +12,7 @@
 #mnubtn{
     width: 42px;
     height: 46px;
+    margin: 0px 19px 31px 0px
 }
 li{
     padding:10px 5px;
@@ -25,9 +26,7 @@ li{
     box-shadow: 2px 3px 6px -2px gray;
     padding: 45px;
 }
-.flex{
-    margin-bottom:50px;
-}
+
 .donation-amount input{
     opacity:0;
     cursor: pointer;
@@ -44,7 +43,8 @@ li{
     padding: 25px;
     border: 2px solid aqua;
     border-radius: 15px;
-    color:aqua;
+    background-color:#4cccf7;
+    margin:10px;
 }
 #othbtn{
     padding-left: 14px;
@@ -56,6 +56,14 @@ li{
 }
 .info-section{
     margin-top: 20px;
+}
+.bannerimg{
+    width:100%;
+}
+
+#logo{
+    margin-right:300px;
+    height:65px;
 }
 @media (min-width:768px){
     #navbar1{

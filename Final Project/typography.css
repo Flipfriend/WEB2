@@ -1,0 +1,19 @@
+/**********  Crimson Text Body Copy *********** */
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+  /***********  Oswald Medium and Semi-Bold  ************* */
+@import url('https://fonts.googleapis.com/css?family=Oswald:500,600&display=swap');
+
+.h2{
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+
+}
+
+.bodycopy{
+    font-family: "Crimson Text", Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.7;
+}
+
+form .ui-button{
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
