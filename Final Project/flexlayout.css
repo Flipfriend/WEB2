@@ -4,7 +4,12 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+.forminput{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
 
 @media (min-width:768px){
     #mnubtn{

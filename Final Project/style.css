@@ -25,6 +25,38 @@ li{
     box-shadow: 2px 3px 6px -2px gray;
     padding: 45px;
 }
+.flex{
+    margin-bottom:50px;
+}
+.donation-amount input{
+    opacity:0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.donation-amount{
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ui-button{
+    padding: 25px;
+    border: 2px solid aqua;
+    border-radius: 15px;
+    color:aqua;
+}
+#othbtn{
+    padding-left: 14px;
+}
+.sendsection{
+    margin-top:50px;
+    flex-grow: 2;
+    width: 100%;
+}
+.info-section{
+    margin-top: 20px;
+}
 @media (min-width:768px){
     #navbar1{
         display:none;
