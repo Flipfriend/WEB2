@@ -1,18 +1,27 @@
 #navbar1{ 
     padding-left:0px;
-    position: absolute;
     background-color: lightcyan;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display:block;
+    width: 100%;
+    transition: width 350ms ease-in;
+}
+.clearfix{
+    clear:both;
+}
+.donation{
+    display:block;
+    text-align: center;
+    padding:12px;
 }
 .flex-sbar{
     display:flex;
 }
 #mnubtn{
-    width: 42px;
-    height: 46px;
-    margin: 0px 19px 31px 0px
+    width: 37px;
+    height: 42px;
+    margin: -3px 0px;
+    padding: 25px;
+    display: inline-block;
 }
 li{
     padding:10px 5px;
@@ -62,8 +71,9 @@ li{
 }
 
 #logo{
-    margin-right:300px;
-    height:65px;
+    margin-right: 175px;
+    height:76px;
+    display: inline-block;
 }
 @media (min-width:768px){
     #navbar1{

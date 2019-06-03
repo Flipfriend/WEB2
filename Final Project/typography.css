@@ -3,6 +3,10 @@
   /***********  Oswald Medium and Semi-Bold  ************* */
 @import url('https://fonts.googleapis.com/css?family=Oswald:500,600&display=swap');
 
+body{
+    font-size: 10px;
+}
+
 .h2{
     font-family: "Oswald", Arial, Helvetica, sans-serif;
 
