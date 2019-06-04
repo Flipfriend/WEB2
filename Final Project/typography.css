@@ -25,6 +25,6 @@ form .ui-button{
     font-size:1.2em;
 }
 
-.m-head{
+.m-head>a{
     font-family: "Oswald",Arial, Helvetica, sans-serif;
 }

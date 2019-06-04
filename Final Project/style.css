@@ -80,22 +80,32 @@ li{
     height: 30px;
     
 }
+.donation{
+    background-color: #51768C;
+}
 .donation>a{
     text-decoration:none;
     color: #ffffff;
     font-size: 1.8em;
     font-weight: 800;
+    font-family: "Oswald",Arial, Helvetica, sans-serif;
+    
 }
 #logo{
     margin-right: 15px;
     height:76px;
     display: inline-block;
 }
+.line1{
+    display:inline-block;
+    height:2px;
+}
 @media (min-width:768px){
     #navbar1{
         display:none;
     }
     #navbar2{
+        display:flex;
         flex-direction: row;
         flex-wrap:wrap;
         justify-content: space-evenly;
