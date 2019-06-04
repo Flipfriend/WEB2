@@ -9,7 +9,9 @@
     justify-content: flex-start;
     flex-wrap: wrap;
 }
-
+.content{
+    position: relative;
+}
 @media (min-width:768px){
     #mnubtn{
         display:none;

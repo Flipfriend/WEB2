@@ -22,7 +22,10 @@ form .ui-button{
     font-weight: 600;
 }
 .bighead{
-    font-size:1.2em;
+    font-size:1.8em;
+    font-family:"Oswald",Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    font-weight:800;
 }
 
 .m-head>a{
@@ -63,5 +66,8 @@ form .ui-button{
     .m-head>a{
         font-family: "Oswald",Arial, Helvetica, sans-serif;
         font-size:1.9em;
+    }
+    .bighead{
+        font-size: 4.8em;
     }
 }
