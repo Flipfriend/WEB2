@@ -15,25 +15,30 @@
     <link rel="stylesheet" type="text/css" href="typography.css">
 </head>
 <body>
-    <header>
+    <header>        
         <div class="icon-logo">
-            <img id="logo" src="assets/images/ahmginversebw1.png" title="logo">
-            <img id="mnubtn" src="assets/images/hamb.menu.4pxwidth.png"alt="menu"title="Menu">
+            <div class="fill-left"></div>
+                <img id="logo" src="assets/images/helpinghands.png" title="logo">
+            <div class="fill-gap"></div>
+                <img id="mnubtn" src="assets/images/hamb.menu.4pxwidth.pale.silver.png"alt="menu"title="Menu">
         </div>
-        <nav>
-            <ul id="navbar1" class="flex-sbar">
-                <li><a href="index.html">Home</a></li>
-                <li id="dn8"><a href="#">Donate</a></li>
-                <li><a href="blog.html">Engagement</a></li>
-                <li> <a href="about.html">About</a></li>
-            </ul>
-            <ul id="navbar2" class="flex-bar">
-                <li><a href="index.html">Home</a></li>
-                <li id="donate"><a href="#">Donate</a></li>
-                <li><a href="blog.html">Engagement</a></li>
-                <li> <a href="about.html">About</a></li>
-            </ul>
-        </nav>
+        <div class="clearfix"></div>
+            <nav>
+                <ul id="navbar1" class="flex-sbar">               
+                    <li class="nav-type "><a href="index.html">Home</a></li>
+                    <li class="nav-type" id="dn8"><a href="donate.html">Donate</a></li>
+                    <li class="nav-type active"><a href="#">Engagement</a></li>
+                    <li class="nav-type "><a href="about.html">About</a></li>
+                </ul>
+                <div class="clearfix"></div>
+                <ul id="navbar2" class="flex-bar">
+                    <li class="nav-type active2"><a href="index.html">Home</a></li>
+                    <li class="nav-type" id="donate"><a href="donate.html">Donate</a></li>
+                    <li class="nav-type active"><a href="#">Engagement</a></li>
+                    <li class="nav-type"> <a href="#">About</a></li>
+                </ul>
+            </nav>
+        <div class="navfix"></div>
     </header>
     <div class="maincontain">
         <form method="POST" class="dn8form">

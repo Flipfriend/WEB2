@@ -81,7 +81,7 @@ li{
     display: inline-block;
     width: 30%;
     height: 30px;
-    transition: 75ms ease-in-out; 
+    transition: 95ms ease-in-out; 
     margin-right:10px;
     
 }
@@ -133,7 +133,25 @@ li{
         display: inline-block;
         width: 40%;
         height: 30px; 
-        transition: 2s ease-in-out; 
+        transition: 95ms ease-in-out; 
+    }
+}
+@media (min-width:555px){
+    .fill-gap{
+        display: inline-block;
+        width: 50%;
+        height: 30px;
+        transition: 95ms ease-in-out; 
+        margin-right:10px;
+    }
+}    
+@media (min-width:655px){
+    .fill-gap{
+        display: inline-block;
+        width: 55%;
+        height: 30px;
+        transition: 95ms ease-in-out; 
+        margin-right:10px;
     }
 }
 @media (min-width:768px){
@@ -168,7 +186,7 @@ li{
     #logo{
         height: 119px;
         width: 155px;
-        transition: 200ms ease-in-out;
+        transition: 95ms ease-in-out;
     }
 }
 
