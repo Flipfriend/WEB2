@@ -134,6 +134,7 @@ li{
     z-index: 2;
     top: 91px;
     left: 80px;
+    cursor: pointer;
 }
 .gradient-overlay{
     background-image: linear-gradient(to bottom, rgba(66, 89, 100, .50), rgba(66, 89, 100, .15));
