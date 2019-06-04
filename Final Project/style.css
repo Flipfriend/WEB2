@@ -20,10 +20,11 @@
 #mnubtn{
     width: 37px;
     height: 42px;
-    padding: 16px;
+    padding: 20px;
     display: inline-block;
     background-color: #ffffff;
     border: 2px solid #ee7560;
+    margin-bottom:10px;
 }
 li{
     padding:10px 5px;
@@ -78,9 +79,10 @@ li{
 }
 .fill-gap{
     display: inline-block;
-    width: 45%;
+    width: 30%;
     height: 30px;
-    transition: 2s ease-in-out; 
+    transition: 75ms ease-in-out; 
+    margin-right:10px;
     
 }
 .donation{
@@ -104,8 +106,10 @@ li{
 }
 #logo{
     margin-right: 15px;
-    height:76px;
+    height:95px;
+    width:119px;
     display: inline-block;
+    transition: 200ms ease-in-out;
 }
 #ln1{
     background-color:#EE7560;
@@ -127,7 +131,7 @@ li{
 @media (min-width:425px){
     .fill-gap{
         display: inline-block;
-        width: 57%;
+        width: 40%;
         height: 30px; 
         transition: 2s ease-in-out; 
     }
@@ -142,11 +146,11 @@ li{
         flex-wrap:wrap;
         justify-content: space-evenly;
         position: absolute;
-        top: 65px;
+        top: 97px;
         z-index: 1;
         left: 25%;
         width: 69%;
-        
+
     }
     .flex-bar{
         display:flex
@@ -160,6 +164,11 @@ li{
         font-size: 2.5em;
         font-weight: 800;
         transition: 300ms ease;
+    }
+    #logo{
+        height: 119px;
+        width: 155px;
+        transition: 200ms ease-in-out;
     }
 }
 
