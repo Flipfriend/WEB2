@@ -11,12 +11,16 @@
     <link rel="stylesheet" type="text/css" media="screen" href="layout.css">
     <!--********Flexbox Layout Guide***************-->
     <link rel="stylesheet" type="text/css" href="flexlayout.css">
+    <!-- *************** Typography **************** -->
+    <link rel="stylesheet" type="text/css" href="typography.css">
 </head>
 <body>
     <header>
-        <div class="donation ">
-            <svg class="line1"><line x1="2" y1="0" x2="65" y2="0"style="stroke: #EE7560; stroke-width: 5"></svg>
-                <a class="m-head" href="donate.html">Donate Now</a></div>
+        <div class="donation">
+            <div class="p-rel">                
+                <a class="m-head" href="donate.html"><span id="ln1"class="line"></span>Donate Now<span id="ln2"class="line"></span></a>
+            </div>    
+        </div>        
         <div class="icon-logo">
             <div class="fill-left"></div>
                 <img id="logo" src="assets/images/ahmginversebw1.png" title="logo">
@@ -26,20 +30,20 @@
             <div class="clearfix"></div>
             <nav>
                 <ul id="navbar1" class="flex-sbar">               
-                    <li><a href="#">Home</a></li>
-                    <li id="dn8"><a href="donate.html">Donate</a></li>
-                    <li><a href="blog.html">Engagement</a></li>
-                    <li> <a href="about.html">About</a></li>
+                    <li class="nav-type active"><a href="#">Home</a></li>
+                    <li class="nav-type" id="dn8"><a href="donate.html">Donate</a></li>
+                    <li class="nav-type"><a href="blog.html">Engagement</a></li>
+                    <li class="nav-type"><a href="about.html">About</a></li>
                 </ul>
                 <div class="clearfix"></div>
                 <ul id="navbar2" class="flex-bar">               
-                        <li><a href="#">Home</a></li>
-                        <li id="donate"><a href="donate.html">Donate</a></li>
-                        <li><a href="blog.html">Engagement</a></li>
-                        <li> <a href="about.html">About</a></li>
+                        <li class="nav-type active2"><a href="#">Home</a></li>
+                        <li class="nav-type" id="donate"><a href="donate.html">Donate</a></li>
+                        <li class="nav-type"><a href="blog.html">Engagement</a></li>
+                        <li class="nav-type"> <a href="about.html">About</a></li>
                 </ul>
             </nav>
-         
+            <div class="navfix"></div>
     </header>
     
     <div class="maincontain">
@@ -58,7 +62,11 @@
         
         
     </div>
-    
+    <footer>
+        <div class="foot">
+                Center For People In Need 3901 N. 27th Street Unit 1 Lincoln, NE 68521 402-476-4357 Fax: 402-476-4358
+        </div>
+    </footer>
 </body>
 <!--Scripts-->
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>

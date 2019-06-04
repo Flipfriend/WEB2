@@ -27,4 +27,41 @@ form .ui-button{
 
 .m-head>a{
     font-family: "Oswald",Arial, Helvetica, sans-serif;
+    font-size:1.5em;
+}
+
+.nav-type,.nav-type>a{
+    font-family:"Oswald",Arial, Helvetica, sans-serif;
+    font-size:1.6em;
+    font-weight:800;
+    letter-spacing: 1.5px;
+    text-decoration:none;
+    color:#FFFFFF;
+}
+.nav-type>a:visted{
+    text-decoration:none;
+    color:#FFFFFF;
+}
+
+.active{
+    width:42%;
+    border-bottom: 2px dotted #FFFFFF;
+}
+.active2{
+    border-bottom: 2px dotted #FFFFFF;
+}
+
+@media (min-width:768px){
+    .nav-type,.nav-type>a{
+        font-family:"Oswald",Arial, Helvetica, sans-serif;
+        font-size:1.9em;
+        font-weight:800;
+        letter-spacing: 1.5px;
+        text-decoration:none;
+        color:#FFFFFF;
+    }
+    .m-head>a{
+        font-family: "Oswald",Arial, Helvetica, sans-serif;
+        font-size:1.9em;
+    }
 }

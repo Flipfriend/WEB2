@@ -1,9 +1,10 @@
 #navbar1{ 
     padding-left:0px;
-    background-color: lightcyan;
+    background-color:#95A8A2;
     display:block;
     width: 100%;
     transition: width 350ms ease-in;
+    margin-top: -1px;
 }
 .clearfix{
     clear:both;
@@ -11,7 +12,7 @@
 .donation{
     display:block;
     text-align: center;
-    padding:12px;
+    padding:12px 0px;
 }
 .flex-sbar{
     display:flex;
@@ -19,9 +20,10 @@
 #mnubtn{
     width: 37px;
     height: 42px;
-    margin: -3px 0px;
-    padding: 25px;
+    padding: 16px;
     display: inline-block;
+    background-color: #ffffff;
+    border: 2px solid #ee7560;
 }
 li{
     padding:10px 5px;
@@ -78,28 +80,57 @@ li{
     display: inline-block;
     width: 45%;
     height: 30px;
+    transition: 2s ease-in-out; 
     
 }
 .donation{
     background-color: #51768C;
+    width:100%;
 }
-.donation>a{
+.donation a{
     text-decoration:none;
     color: #ffffff;
-    font-size: 1.8em;
+    font-size: 2em;
     font-weight: 800;
     font-family: "Oswald",Arial, Helvetica, sans-serif;
     letter-spacing:1.5px;
-    
+    transition: 300ms ease;
+}
+.navfix{
+    margin-bottom: 25px;
+}
+.p-rel{
+    position: relative;
 }
 #logo{
     margin-right: 15px;
     height:76px;
     display: inline-block;
 }
-.line1{
-    display:inline-block;
-    height:2px;
+#ln1{
+    background-color:#EE7560;
+    height:5px;
+    width:12%;
+}
+#ln2{
+    background-color:#EE7560;
+    height:5px;
+    width:12%;
+}
+.line{
+    display: inline-block;
+    height: 5px;
+    width: 12%;
+    background-color: #EE7560;
+    margin: 0px 29px 7px 29px;
+}
+@media (min-width:425px){
+    .fill-gap{
+        display: inline-block;
+        width: 57%;
+        height: 30px; 
+        transition: 2s ease-in-out; 
+    }
 }
 @media (min-width:768px){
     #navbar1{
@@ -110,12 +141,25 @@ li{
         flex-direction: row;
         flex-wrap:wrap;
         justify-content: space-evenly;
+        position: absolute;
+        top: 65px;
+        z-index: 1;
+        left: 25%;
+        width: 69%;
+        
     }
     .flex-bar{
         display:flex
     }
     .flex-sbar{
         display:none;
+    }
+    .donation a{
+        text-decoration:none;
+        color: #ffffff;
+        font-size: 2.5em;
+        font-weight: 800;
+        transition: 300ms ease;
     }
 }
 
