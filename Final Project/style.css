@@ -75,9 +75,14 @@ li{
     width: 2%;
 }
 .fill-gap{
+    display: inline-block;
     width: 45%;
     height: 30px;
-    display: inline-block;
+    
+}
+.donation>a{
+    text-decoration:none;
+    color:
 }
 #logo{
     margin-right: 15px;
@@ -101,3 +106,4 @@ li{
         display:none;
     }
 }
+
