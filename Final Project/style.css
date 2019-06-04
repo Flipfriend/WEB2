@@ -83,12 +83,13 @@ li{
 .donation>a{
     text-decoration:none;
     color: #ffffff;
+    font-size: 1.8em;
+    font-weight: 800;
 }
 #logo{
     margin-right: 15px;
     height:76px;
     display: inline-block;
-    padding-left:10px;
 }
 @media (min-width:768px){
     #navbar1{

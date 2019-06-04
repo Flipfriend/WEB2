@@ -21,3 +21,10 @@ form .ui-button{
     font-family: "Oswald", Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
+.bighead{
+    font-size:1.2em;
+}
+
+.m-head{
+    font-family: "Oswald",Arial, Helvetica, sans-serif;
+}
