@@ -59,7 +59,7 @@ li{
     flex-direction: row;
     flex-wrap: wrap;
 }
-.donation-amount:nth-child(1,3,5){
+.donation-amount:nth-child(1){
     flex-direction:column;
 }
 .ui-button{
