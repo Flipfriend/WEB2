@@ -160,6 +160,16 @@ li{
     text-decoration:none;
     color:#ffffff;
 }
+.about-c{
+    background-color:#95A8A2;
+}
+.blgline{
+    border-bottom: 2px dotted #EE7560;
+}
+.linkcolor a{
+    color:#ffffff;
+    text-decoration: none;
+}
 @media (min-width:425px){
     .fill-gap{
         display: inline-block;
@@ -197,6 +207,17 @@ li{
         justify-content: space-evenly;
         position: absolute;
         top: 97px;
+        z-index: 1;
+        left: 25%;
+        width: 69%;
+    }
+    .dn8pg{
+        display:flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 35px;
         z-index: 1;
         left: 25%;
         width: 69%;

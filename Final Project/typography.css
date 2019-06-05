@@ -68,6 +68,15 @@ form .ui-button{
         font-size:1.9em;
     }
     .bighead{
-        font-size: 4.8em;
+        font-size: 2.8em;
+    }
+    .space{
+        height:376.3px;
+    }
+    .space2{
+        height:218.55px;
+    }
+    .gap{
+        margin-right:20px;
     }
 }
