@@ -47,6 +47,7 @@ li{
 .dn8form{
     display:flex;
     flex-direction: column;
+    flex-wrap:wrap;
     width:365px;
 }
 .form-top{
