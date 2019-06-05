@@ -31,7 +31,7 @@
                     <li class="nav-type "><a href="about.html">About</a></li>
                 </ul>
                 <div class="clearfix"></div>
-                <ul id="navbar2"class="dn8pg">
+                <ul class="dn8pg">
                     <li class="nav-type"><a href="index.html">Home</a></li>
                     <li class="nav-type active2" id="donate"><a href="#">Donate</a></li>
                     <li class="nav-type "><a href="blog.html">Engagement</a></li>
@@ -46,22 +46,25 @@
             <p class="bodycopy">When you are making a donation, you may choose to have us acknowledge your contribution in the name of someone special. If you provide contact information for any honorees, we will notify them that your donation was made on their behalf. When you make an online donation, please include this information in the Comments box.</p>
         </div>
         <form method="POST" class="dn8form">
-            <div class="donation-amount forminput content form-top">
-                <label class="ui-button " for="$25">$25</label>
-                <input type="radio" name="donation" value="$25">
-                <label class="ui-button" for="$50">$50</label>
-                <input class="ui-button" type="radio" name="donation" value="$50">
-                <label class="ui-button" for="$75">$75</label>
-                <input class="ui-button" type="radio" name="donation" value="$75">
-                <label class="ui-button" for="$100">$100</label>
-                <input class="ui-button" type="radio" name="donation" value="$100">
-                <label class="ui-button" for="$200">$200</label>
-                <input class="ui-button" type="radio" name="donation" value="$200">
-                <label class="ui-button" id="othbtn"for="other">Other</label>
-                <input type="radio" name="donation" value="">
+            <div class="floats sm-width-50 md-width-50 lg-width-50  forminput content form-top">
+                <h2 class="bighead">Gift Information</h2>
+                <div class="donation-amount">
+                    <label class="ui-button " for="$25">$25</label>
+                        <input type="radio" name="donation" value="$25">
+                    <label class="ui-button" for="$50">$50</label>
+                        <input class="ui-button" type="radio" name="donation" value="$50">
+                    <label class="ui-button" for="$75">$75</label>
+                        <input class="ui-button" type="radio" name="donation" value="$75">
+                    <label class="ui-button" for="$100">$100</label>
+                        <input class="ui-button" type="radio" name="donation" value="$100">
+                    <label class="ui-button" for="$200">$200</label>
+                        <input class="ui-button" type="radio" name="donation" value="$200">
+                    <label class="ui-button" id="othbtn"for="other">Other</label>
+                        <input type="radio" name="donation" value="">
+                </div>    
             </div>
-            <div class="forminput info-section content">
-                <label class="formlabel" for="firstname">First Name</label>
+            <div class="floats sm-width-50 md-width-50 lg-width-50 forminput info-section content">
+                    <h2 class="bighead">Credit Card Information</h2>
                 <input type="text" name="firstname" value="First Name" required>
                 <input type="text" name="lastname" value="Last Name" required>
                 <input type="text" name="billingaddress" value="Billing Address" required>
@@ -72,7 +75,7 @@
             </div>
             <div class="sendsection">
                 <label for="send"></label>
-                <button class="s-btn ui-button" type="button" value="send"onclick="alert('Thanks for Donating')">Send</button>
+                <button class="s-btn ui-button" type="button" value="send"onclick="alert('Thanks for Donating!')">Send</button>
             </div>     
         </form>
     </div>

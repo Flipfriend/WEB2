@@ -14,7 +14,12 @@
     text-align: center;
     padding:12px 0px;
 }
-
+.dn8pg{
+    display:none;
+}
+.s-btn{
+    margin-bottom:45px;
+}
 #mnubtn{
     width: 37px;
     height: 42px;
@@ -42,6 +47,7 @@ li{
 .dn8form{
     display:flex;
     flex-direction: column;
+    width:365px;
 }
 .form-top{
     border-top: 5px solid #EE7560;
@@ -59,9 +65,6 @@ li{
     flex-direction: row;
     flex-wrap: wrap;
 }
-.donation-amount:nth-child(1){
-    flex-direction:column;
-}
 .ui-button{
     padding: 25px;
     border: 2px solid #95A8A2;
@@ -73,13 +76,16 @@ li{
     padding-left: 14px;
 }
 .sendsection{
-    margin-top:50px;
+    margin:50px 0px;
     flex-grow: 2;
     width: 100%;
+    
 }
 .info-section{
     margin-top: 20px;
+    flex-direction: row;
 }
+
 .bannerimg{
     width:100%;
 }

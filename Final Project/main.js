@@ -6,4 +6,8 @@ $(document).ready(function(){
         $('#navbar1').toggle("slow");
         console.log('fire!')
     });    
+
+    $('form').submit(function(event){
+        event.preventDefault();
+    })
 });
