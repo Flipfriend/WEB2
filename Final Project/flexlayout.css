@@ -3,15 +3,14 @@
     background-color: #435964;
     position: relative;
 }
-.forminput{
+/* .forminput{
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-}
-.content{
-    position: relative;
-}
+    width:300px;
+} */
+
 @media (min-width:768px){
     #mnubtn{
         display:none;
