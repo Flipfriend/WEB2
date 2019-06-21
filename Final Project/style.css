@@ -31,7 +31,7 @@
     margin-bottom:10px;
 }
 li{
-    padding:10px 5px;
+    padding:10px 21px;
 }
 #navbar2{
     display:none;
@@ -100,7 +100,7 @@ li{
     padding-left: 14px;
 }
 .sendsection{
-    margin-top: 28px;
+    margin-top: 44px;
     flex-grow: 2;
     width: 100%;
     
@@ -173,18 +173,19 @@ li{
     color:#ffffff;
     z-index: 2;
     top: 91px;
-    left: 80px;
+    left: 18px;
     cursor: pointer;
 }
 .gradient-overlay{
     background-image: linear-gradient(to bottom, rgba(66, 89, 100, .50), rgba(66, 89, 100, .15));
     background-blend-mode: overlay;
-    height: 58%;
     position: absolute;
     z-index: 1;
     background-size: cover;
-    width: 76%;
-    top: 45px;
+    top: 0px;
+    left:0px;
+    height:100%;
+    width:100%;
 }
 .foot{
     display:block;
@@ -206,9 +207,42 @@ li{
 .blgline{
     border-bottom: 2px dotted #EE7560;
 }
+.linkcolor{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #435964;
+    width: 50%;
+}
 .linkcolor a{
     color:#ffffff;
     text-decoration: none;
+    font-size: 2.4em;
+    letter-spacing: 2.5px;
+}
+.bkgimg1{
+    background-image: url("assets/images/farmers-market-1.jpg");
+    height:215px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.bkgimg2{
+    background-image: url("assets/images/classphoto.jpg");
+    height:215px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.bkgimg3{
+    background-image: url("assets/images/programs.jpg");
+    height:215px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
 @media (min-width:425px){
     .fill-gap{
@@ -225,6 +259,15 @@ li{
         height: 30px;
         transition: 95ms ease-in-out; 
         margin-right:10px;
+    }
+    .bkgimg3{
+        height:340px;
+    }
+    .bkgimg2{
+        height:340px;
+    }
+    .bkgimg1{
+        height:340px;
     }
 }    
 @media (min-width:655px){
@@ -243,24 +286,24 @@ li{
     #navbar2{
         display:flex;
         flex-direction: row;
-        flex-wrap:wrap;
         justify-content: space-evenly;
         position: absolute;
         top: 97px;
         z-index: 1;
         left: 25%;
         width: 69%;
+        margin: 17px -20px;
     }
     .dn8pg{
         display:flex;
         flex-direction: row;
-        flex-wrap:wrap;
         justify-content: space-evenly;
         position: absolute;
         top: 35px;
         z-index: 1;
         left: 25%;
         width: 69%;
+        margin: 17px -20px;
     }
     .flex-bar{
         display:flex
@@ -281,12 +324,21 @@ li{
         transition: 95ms ease-in-out;
     }
     .gradient-overlay{
-        width:88%;
-        height:70%;
+        width:100%;
+        height:100%;
     }
     .t-overlay{
         top:134px;
         left: 98px;
+    }
+    .bkgimg3{
+        height:354px;
+    }
+    .bkgimg2{
+        height:354px;
+    }
+    .bkgimg1{
+        height:354px;
     }
 }
 

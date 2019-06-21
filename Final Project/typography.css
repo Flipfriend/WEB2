@@ -27,9 +27,10 @@ form .ui-button{
     font-family:"Oswald",Arial, Helvetica, sans-serif;
     letter-spacing: 1.5px;
     font-weight:800;
+    color: #ffffff;
 }
 .bighead2{
-    font-size:1.8em;
+    font-size:3.4em;
     font-family:"Oswald",Arial, Helvetica, sans-serif;
     letter-spacing: 1.5px;
     font-weight:800;
@@ -79,10 +80,10 @@ form .ui-button{
         font-size: 2.8em;
     }
     .space{
-        height:376.3px;
+        height: 451.3px;
     }
     .space2{
-        height:218.55px;
+        height:459.06px;
     }
     .gap{
         margin-right:20px;
