@@ -77,23 +77,25 @@ li{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-bottom:13px;
+    padding-bottom: 29px;
 }
 .ui-button{
-    padding: 25px;
+    padding: 9px 0px;
     border: 2px solid #95A8A2;
     border-radius: 15px;
     background-color:#ffffff;
     margin:10px;
     position: relative;
+    width:100px;
+    text-align: center;
 }
 .dn8-input{
     position: absolute;
-    left: 22px;
+    left: 40px;
 }
- .ui-check{
+ .ui-check:checked{
     position: absolute;
-    border: 3px solid #ffffff;
+    border: 3px solid #EE7560;
     background-color:#95A8A2;
 }
 #othbtn{
