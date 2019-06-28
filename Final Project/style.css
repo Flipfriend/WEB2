@@ -93,13 +93,9 @@ li{
     position: absolute;
     left: 40px;
 }
- .ui-check:checked{
-    position: absolute;
+ .ui-check {
     border: 3px solid #EE7560;
     background-color:#95A8A2;
-}
-#othbtn{
-    padding-left: 14px;
 }
 .sendsection{
     margin-top: 44px;
