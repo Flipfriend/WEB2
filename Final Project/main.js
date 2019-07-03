@@ -9,10 +9,10 @@ $(document).ready(function(){
 // thank you message at submit
     $('form').submit(function(event){
         event.preventDefault();
-    })
-
-    // $('.ui-button').load(function(){
-    //     console.log('fire')
-    //     $(this).toggleClass('.ui-check','.ui-button', [addOrRemove])
-    // });
+    });
+// monthly radio button if checked swap class .monthly-gift for .one-time-gift
+    $('input[name=payment-type]:radio').click(function(){
+       $('.one-time-gift').slideToggle('.monthly-gift')
+       $('.monthly-gift').slideToggle()       
+    });
 });
