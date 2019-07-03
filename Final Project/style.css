@@ -261,6 +261,11 @@ li{
     background-repeat: no-repeat;
     position: relative;
 }
+/* *********display headers in block width 100%******** */
+.widthAll{
+    display: block;
+    width: 100%;
+}
 @media (min-width:425px){
     .fill-gap{
         display: inline-block;
