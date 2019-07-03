@@ -86,11 +86,12 @@ li{
 }
 .button{
     padding: 9px 0px;
-    margin:10px;
+    margin:10px auto;
     border-radius: 15px;
     position: relative;
     width:100px;
     text-align: center;
+    cursor: pointer;
 }
 .dn8-input{
     position: absolute;
@@ -98,23 +99,22 @@ li{
 }
 .ui-check{
     border: 3px solid #EE7560;
-    background-color:#95A8A2;
     width:100px;
     position: absolute;
-    top: 0px;
-    left: 123px;
+    top: -13px;
+    left: -3px;
     height: 13px;
     display:none;
 }
 .ui-button input:checked ~ .ui-check {
     border: 3px solid #EE7560;
-    background-color:#95A8A2;
+    display:block;
 }
 .ui-button input:checked ~ .ui-check:after {
     display: block;
 }
 .sendsection{
-    margin-top: 44px;
+    margin-top: 22px;
     flex-grow: 2;
     width: 100%;
     
