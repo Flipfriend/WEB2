@@ -110,8 +110,9 @@ li{
     border: 3px solid #EE7560;
     background-color:#95A8A2;
 }
-
-
+.ui-button input:checked ~ .ui-check:after {
+    display: block;
+}
 .sendsection{
     margin-top: 44px;
     flex-grow: 2;
