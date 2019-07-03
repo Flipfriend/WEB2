@@ -44,6 +44,7 @@ form .ui-button{
     font-family: "Crimson Text", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
     letter-spacing: 0.9px;
+    color:#FFFFFF;
 }
 .nav-type,.nav-type>a{
     font-family:"Oswald",Arial, Helvetica, sans-serif;

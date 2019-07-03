@@ -60,24 +60,29 @@ li{
 .form-top{
     margin-top:45px;
 }
-.donation-amount1 input{
+.donation-amount1 input,.donation-amount2 input,.donation-amount3 input,.donation-amount4 input{
     opacity:0;
     cursor: pointer;
     height: 0;
     width: 0;
 }
-.donation-amount2 input{
-    opacity:0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-}
+
 .donation-amount1,.donation-amount2{
     position:relative;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding-bottom: 29px;
+}
+.donation-amount3,.donation-amount4{
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 29px;
+}
+.monthly-gift{
+    display:none;
 }
 .ui-button{
     border: 2px solid #95A8A2;
