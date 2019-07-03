@@ -113,6 +113,9 @@ li{
 .ui-button input:checked ~ .ui-check:after {
     display: block;
 }
+.ui-button.button:hover {
+    background-color: antiquewhite;
+}
 .sendsection{
     margin-top: 22px;
     flex-grow: 2;
