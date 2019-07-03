@@ -11,7 +11,8 @@ $(document).ready(function(){
         event.preventDefault();
     })
 
-    $('ui-button > input').click(function(){
-        $(this).toggleClass('.ui-check', addOrRemove)
-    });
+    // $('.ui-button').load(function(){
+    //     console.log('fire')
+    //     $(this).toggleClass('.ui-check','.ui-button', [addOrRemove])
+    // });
 });

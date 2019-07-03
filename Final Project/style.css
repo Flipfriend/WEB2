@@ -80,11 +80,14 @@ li{
     padding-bottom: 29px;
 }
 .ui-button{
-    padding: 9px 0px;
     border: 2px solid #95A8A2;
-    border-radius: 15px;
     background-color:#ffffff;
+    position: relative;
+}
+.button{
+    padding: 9px 0px;
     margin:10px;
+    border-radius: 15px;
     position: relative;
     width:100px;
     text-align: center;
@@ -93,10 +96,22 @@ li{
     position: absolute;
     left: 40px;
 }
- .ui-check {
+.ui-check{
+    border: 3px solid #EE7560;
+    background-color:#95A8A2;
+    width:100px;
+    position: absolute;
+    top: 0px;
+    left: 123px;
+    height: 13px;
+    display:none;
+}
+.ui-button input:checked ~ .ui-check {
     border: 3px solid #EE7560;
     background-color:#95A8A2;
 }
+
+
 .sendsection{
     margin-top: 44px;
     flex-grow: 2;
