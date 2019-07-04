@@ -12,7 +12,7 @@ $(document).ready(function(){
     });
 // monthly radio button if checked swap class .monthly-gift for .one-time-gift
     $('input[name=payment-type]:radio').click(function(){
-       $('.one-time-gift').slideToggle('.monthly-gift')
+       $('.one-time-gift').slideToggle('.one-time-gift')
        $('.monthly-gift').slideToggle()       
     });
 });

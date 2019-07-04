@@ -272,6 +272,41 @@ li{
     display: block;
     width: 100%;
 }
+.ui-radio{
+    position: relative;
+    background-color: #ffffff;
+    padding:10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+}
+.circle{
+    border-radius:50%;
+    
+}
+.ui-radio inputs{
+    opacity:0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.radio-check{
+    border: 3px solid #EE7560;
+    display:none;
+}
+.ui-radio input:checked ~ .radio-check {
+    border: 3px solid #EE7560;
+    display:block;
+}
+.ui-radio input:checked ~ .radio-check:after {
+    display: block;
+}
+.ui-radio:hover {
+    background-color: antiquewhite;
+}
+.ui-radio input{
+    position: absolute;
+}
 @media (min-width:425px){
     .fill-gap{
         display: inline-block;
