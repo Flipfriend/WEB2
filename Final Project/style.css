@@ -137,6 +137,10 @@ li{
     flex-direction: row;
 }
 
+.form-mat{
+    display: inline-block;
+}
+
 .bannerimg{
     width:100%;
 }

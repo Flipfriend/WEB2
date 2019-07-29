@@ -98,7 +98,7 @@
                                 
                             <label class="ui-button button" for="$20">$20<input class="dn8-input" id="$20" type="radio" name="recurringDonation" value="$20"><span class="ui-check button"></span></label>
                                 
-                            <label class="ui-button button" id="othbtn2"for="othInput2">Other<input class="dn8-input" id="othInput2"type="radio" name="recurringDonation" value=""><span class="ui-check button"></span></label>
+                            <label class="ui-button button" id="othbtn2"for="othInput2">Other<input class="dn8-input" id="othInput2"type="text" name="recurringDonation" value="0.00"><span class="ui-check button"></span></label>
                         </div> 
                     </div>    
                 </div>       
@@ -106,13 +106,15 @@
                     <div class="content-2 forminput">
                             <h2 class="bighead">Credit Card Information</h2>
                             <label for="firtsname"></label>
-                            <input type="text" name="firstname" value="First Name" required>
+                            <input class="form-mat" type="text" name="firstname" value="First Name" required>
                             <label for="lastname"></label>
-                            <input type="text" name="lastname" value="Last Name" required>
+                            <input class="form-mat" type="text" name="lastname" value="Last Name" required>
                             <label for="billingaddress"></label>
-                            <input type="text" name="billingaddress" value="Billing Address" required>
+                            <input class="form-mat" type="text" name="billingaddress1" value="Billing Address1" required>
+                            <label for="billingaddress2"></label>
+                            <input class="form-mat" type="text" name="billingaddress2" value="Billing Address2" required>
                             <label for="state"></label>
-                            <select for="state" name="state">
+                            <select class="form-mat" for="state" name="state">
                                 <option value="selectstate" selected >Select State</option>
                                 <option value="AL">Alabama</option>
                                 <option value="AK">Alaska</option>
@@ -167,11 +169,11 @@
                                 <option value="WY">Wyoming</option>	
                             </select>
                             <label for="cardnumber"></label>
-                            <input type="text" name="cardnumber" value="Card Number" required>
+                            <input class="form-mat" type="text" name="cardnumber" value="Card Number" required>
                             <label for="expiration"></label>
-                            <input type="text" name="expiration" value="Expiration Date" required>
+                            <input class="form-mat" type="text" name="expiration" value="Expiration Date" required>
                             <label for="securitycode"></label>
-                            <input type="text" name="securitycode" value="Security Code" required>
+                            <input class="form-mat" type="text" name="securitycode" value="Security Code" required>
                         <div class="clearfix"></div>
                         <div class="sendsection">
                             <label for="send"></label>
