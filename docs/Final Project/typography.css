@@ -1,0 +1,111 @@
+/**********  Crimson Text Body Copy *********** */
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+  /***********  Oswald Medium and Semi-Bold  ************* */
+@import url('https://fonts.googleapis.com/css?family=Oswald:500,600&display=swap');
+
+body{
+    font-size: 10px;
+}
+
+.h2{
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+
+}
+
+.bodycopy{
+    font-family: "Crimson Text", Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.7;
+    font-size: 1.8em;
+}
+
+form .ui-button{
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.bighead{
+    font-size:2.8em;
+    font-family:"Oswald",Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    font-weight:800;
+    color: #ffffff;
+}
+.bighead2{
+    font-size:3.4em;
+    font-family:"Oswald",Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    font-weight:800;
+}
+
+.m-head>a{
+    font-family: "Oswald",Arial, Helvetica, sans-serif;
+    font-size:1.5em;
+}
+.sm-head{
+    font-family: "Crimson Text", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    color:#FFFFFF;
+}
+.nav-type,.nav-type>a{
+    font-family:"Oswald",Arial, Helvetica, sans-serif;
+    font-size:1.6em;
+    font-weight:800;
+    letter-spacing: 1.5px;
+    text-decoration:none;
+    color:#FFFFFF;
+}
+.nav-type>a:visted{
+    text-decoration:none;
+    color:#FFFFFF;
+}
+
+.active{
+    width:42%;
+    border-bottom: 2px dotted #FFFFFF;
+}
+.active2{
+    border-bottom: 2px dotted #FFFFFF;
+}
+
+
+@media (min-width:768px){
+    .nav-type,.nav-type>a{
+        font-family:"Oswald",Arial, Helvetica, sans-serif;
+        font-size:1.9em;
+        font-weight:800;
+        letter-spacing: 1.5px;
+        text-decoration:none;
+        color:#FFFFFF;
+    }
+    .m-head>a{
+        font-family: "Oswald",Arial, Helvetica, sans-serif;
+        font-size:1.9em;
+    }
+    .bighead{
+        font-size: 2.8em;
+    }
+    .space{
+        height: 451.3px;
+    }
+    .space2{
+        height:459.06px;
+    }
+    .gap{
+        margin-right:20px;
+    }
+    .bighead2{
+        font-size:4.8em;
+        
+    }
+    .bodycopy{
+        font-size: 1.6em;
+    }
+    @media (min-width:992px){
+        .bodycopy{
+            font-size: 1.5em;
+        }
+        .space{
+            height: 492.46px;
+        }
+    }
+}

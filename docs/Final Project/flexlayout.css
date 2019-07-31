@@ -1,0 +1,15 @@
+.icon-logo{
+    padding: 16px 0px;
+    background-color: #435964;
+    position: relative;
+}
+
+
+@media (min-width:768px){
+    #mnubtn{
+        display:none;
+    }
+    .flex{
+        display:inherit;
+    }
+} 
