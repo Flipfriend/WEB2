@@ -450,6 +450,8 @@ li{
     .bkgimg1{
         height:354px;
     }
+
+    /* Large Screens */
     @media (min-width:992px){
         .dn8lingo{
             background-color:#95A8A2;
