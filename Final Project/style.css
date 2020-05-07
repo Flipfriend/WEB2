@@ -60,6 +60,10 @@ li{
 .form-top{
     margin-top:45px;
 }
+.para-cont{
+    height:644px;
+    padding:5px;
+}
 .donation-amount1 input,.donation-amount2 input,.donation-amount3 input,.donation-amount4 input{
     opacity:0;
     cursor: pointer;
