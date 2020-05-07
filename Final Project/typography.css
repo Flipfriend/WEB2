@@ -84,12 +84,7 @@ form .ui-button{
     .bighead{
         font-size: 2.8em;
     }
-    .space{
-        height: 451.3px;
-    }
-    .space2{
-        height:459.06px;
-    }
+
     .gap{
         margin-right:20px;
     }
@@ -103,9 +98,6 @@ form .ui-button{
     @media (min-width:992px){
         .bodycopy{
             font-size: 1.5em;
-        }
-        .space{
-            height: 492.46px;
         }
     }
 }
